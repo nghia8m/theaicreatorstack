@@ -5,7 +5,7 @@ metaDescription: "Start editing video with AI on a budget. Compare Filmora, VEED
 category: "AI Video Tools"
 categoryLink: "/ai-video"
 ogImage: "/images/cards/best-budget-ai-video-tools-beginners.jpg"
-cardImage: "/images/cards/best-budget-ai-video-tools-beginners.jpg"
+cardImage: "/images/tools/pictory.jpg"
 cardTitle: "Best Budget AI Video Tools"
 cardSummary: "Affordable, beginner-friendly AI video tools that won't overwhelm you — or your wallet."
 publishedLabel: "Updated July 2026"

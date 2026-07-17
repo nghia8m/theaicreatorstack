@@ -5,7 +5,7 @@ metaDescription: "Batch a month of scroll-stopping social captions with AI. We c
 category: "AI Writing Tools"
 categoryLink: "/ai-writing"
 ogImage: "/images/cards/best-ai-copywriting-tools-social-media-captions.jpg"
-cardImage: "/images/cards/best-ai-copywriting-tools-social-media-captions.jpg"
+cardImage: "/images/tools/anyword.jpg"
 cardTitle: "Best AI Tools for Social Captions"
 cardSummary: "Write better Instagram, TikTok and LinkedIn captions in bulk with the AI copywriting tools built for social."
 publishedLabel: "Updated July 2026"

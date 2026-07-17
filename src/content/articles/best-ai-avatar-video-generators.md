@@ -5,7 +5,7 @@ metaDescription: "Create talking-head videos without filming using AI avatars. C
 category: "AI Video Tools"
 categoryLink: "/ai-video"
 ogImage: "/images/cards/best-ai-avatar-video-generators.jpg"
-cardImage: "/images/cards/best-ai-avatar-video-generators.jpg"
+cardImage: "/images/tools/synthesia.jpg"
 cardTitle: "Best AI Avatar Video Generators"
 cardSummary: "Turn a script into a presenter-led video — no camera, no studio. The most realistic AI avatar tools of 2026."
 publishedLabel: "Updated July 2026"

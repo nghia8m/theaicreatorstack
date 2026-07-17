@@ -5,7 +5,7 @@ metaDescription: "The best AI tools for writing blog posts in 2026, compared for
 category: "AI Writing Tools"
 categoryLink: "/ai-writing"
 ogImage: "/images/cards/best-ai-blog-writing-tools-for-bloggers.jpg"
-cardImage: "/images/cards/best-ai-blog-writing-tools-for-bloggers.jpg"
+cardImage: "/images/tools/writesonic.jpg"
 cardTitle: "Best AI Blog Writing Tools"
 cardSummary: "AI tools that help bloggers go from outline to publish-ready draft — ranked for long-form quality, SEO features and value."
 publishedLabel: "Updated July 2026"

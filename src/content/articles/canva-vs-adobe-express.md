@@ -5,7 +5,7 @@ metaDescription: "Canva vs Adobe Express compared for 2026 — templates, AI fea
 category: "AI Design & Thumbnail Tools"
 categoryLink: "/ai-design"
 ogImage: "/images/cards/canva-vs-adobe-express.jpg"
-cardImage: "/images/cards/canva-vs-adobe-express.jpg"
+cardImage: "/images/tools/canva.jpg"
 cardTitle: "Canva vs Adobe Express"
 cardSummary: "The two biggest browser design tools go head-to-head on templates, AI and value for creators."
 publishedLabel: "Updated July 2026"

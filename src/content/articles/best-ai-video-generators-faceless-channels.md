@@ -5,7 +5,7 @@ metaDescription: "Run a faceless YouTube channel with AI. Compare Pictory, InVid
 category: "AI Video Tools"
 categoryLink: "/ai-video"
 ogImage: "/images/cards/best-ai-video-generators-faceless-channels.jpg"
-cardImage: "/images/cards/best-ai-video-generators-faceless-channels.jpg"
+cardImage: "/images/tools/invideo-ai.jpg"
 cardTitle: "Best AI Tools for Faceless Channels"
 cardSummary: "Text-to-video, stock footage and AI narration — the tools that make faceless channels possible without a camera."
 publishedLabel: "Updated July 2026"

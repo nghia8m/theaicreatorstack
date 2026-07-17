@@ -5,7 +5,7 @@ metaDescription: "The best AI video editing tools for YouTubers and creators in 
 category: "AI Video Tools"
 categoryLink: "/ai-video"
 ogImage: "/images/cards/best-ai-video-editing-tools-for-creators.jpg"
-cardImage: "/images/cards/best-ai-video-editing-tools-for-creators.jpg"
+cardImage: "/images/tools/filmora.jpg"
 cardTitle: "Best AI Video Editing Tools"
 cardSummary: "From text-based editing to generative footage, these AI video editors save creators hours in the timeline."
 publishedLabel: "Updated July 2026"

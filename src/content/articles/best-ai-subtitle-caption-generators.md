@@ -5,7 +5,7 @@ metaDescription: "Add accurate, animated captions to your videos with AI. Compar
 category: "AI Video Tools"
 categoryLink: "/ai-video"
 ogImage: "/images/cards/best-ai-subtitle-caption-generators.jpg"
-cardImage: "/images/cards/best-ai-subtitle-caption-generators.jpg"
+cardImage: "/images/tools/submagic.jpg"
 cardTitle: "Best AI Subtitle & Caption Tools"
 cardSummary: "Accurate, animated captions that boost watch time — the best AI subtitle generators for short and long video."
 publishedLabel: "Updated July 2026"

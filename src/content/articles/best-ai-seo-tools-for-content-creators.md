@@ -5,7 +5,7 @@ metaDescription: "The best AI SEO tools for creators in 2026 — Surfer SEO, Fra
 category: "AI SEO & Analytics Tools"
 categoryLink: "/ai-seo"
 ogImage: "/images/cards/best-ai-seo-tools-for-content-creators.jpg"
-cardImage: "/images/cards/best-ai-seo-tools-for-content-creators.jpg"
+cardImage: "/images/tools/surfer-seo.jpg"
 cardTitle: "Best AI SEO Tools for Creators"
 cardSummary: "Rank higher on Google and YouTube with AI — the SEO tools that turn guesswork into a repeatable process."
 publishedLabel: "Updated July 2026"

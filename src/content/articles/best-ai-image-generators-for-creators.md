@@ -5,7 +5,7 @@ metaDescription: "The best AI image generators for creators in 2026 — Midjourn
 category: "AI Design & Thumbnail Tools"
 categoryLink: "/ai-design"
 ogImage: "/images/cards/best-ai-image-generators-for-creators.jpg"
-cardImage: "/images/cards/best-ai-image-generators-for-creators.jpg"
+cardImage: "/images/tools/midjourney.jpg"
 cardTitle: "Best AI Image Generators"
 cardSummary: "From photorealism to text-in-image, the AI image generators creators actually use — compared honestly."
 publishedLabel: "Updated July 2026"

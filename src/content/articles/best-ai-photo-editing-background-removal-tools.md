@@ -5,7 +5,7 @@ metaDescription: "Edit photos and remove backgrounds in seconds with AI. Compare
 category: "AI Design & Thumbnail Tools"
 categoryLink: "/ai-design"
 ogImage: "/images/cards/best-ai-photo-editing-background-removal-tools.jpg"
-cardImage: "/images/cards/best-ai-photo-editing-background-removal-tools.jpg"
+cardImage: "/images/tools/photoroom.jpg"
 cardTitle: "Best AI Photo Editing Tools"
 cardSummary: "Remove backgrounds, clean up photos and retouch images in seconds — the best AI photo editing tools for creators."
 publishedLabel: "Updated July 2026"

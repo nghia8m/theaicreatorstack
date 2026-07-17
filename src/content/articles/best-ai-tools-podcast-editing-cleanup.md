@@ -5,7 +5,7 @@ metaDescription: "Clean up and edit your podcast with AI. Compare Descript, Podc
 category: "AI Voice & Audio Tools"
 categoryLink: "/ai-voice"
 ogImage: "/images/cards/best-ai-tools-podcast-editing-cleanup.jpg"
-cardImage: "/images/cards/best-ai-tools-podcast-editing-cleanup.jpg"
+cardImage: "/images/tools/adobe-podcast.jpg"
 cardTitle: "Best AI Podcast Editing Tools"
 cardSummary: "Remove noise, cut filler and edit by text — the AI tools that make podcast production painless."
 publishedLabel: "Updated July 2026"

@@ -5,7 +5,7 @@ metaDescription: "Find keywords that actually rank with AI. Compare Semrush, Ahr
 category: "AI SEO & Analytics Tools"
 categoryLink: "/ai-seo"
 ogImage: "/images/cards/best-ai-tools-for-keyword-research.jpg"
-cardImage: "/images/cards/best-ai-tools-for-keyword-research.jpg"
+cardImage: "/images/tools/semrush.jpg"
 cardTitle: "Best AI Keyword Research Tools"
 cardSummary: "Uncover the searches your audience is actually making — the best AI keyword research tools compared."
 publishedLabel: "Updated July 2026"

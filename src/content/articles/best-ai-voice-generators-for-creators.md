@@ -5,7 +5,7 @@ metaDescription: "The best AI voice generators for creators in 2026 — ElevenLa
 category: "AI Voice & Audio Tools"
 categoryLink: "/ai-voice"
 ogImage: "/images/cards/best-ai-voice-generators-for-creators.jpg"
-cardImage: "/images/cards/best-ai-voice-generators-for-creators.jpg"
+cardImage: "/images/tools/lovo-genny.jpg"
 cardTitle: "Best AI Voice Generators"
 cardSummary: "Studio-quality voiceovers from text — the most realistic AI voice generators for creators, ranked."
 publishedLabel: "Updated July 2026"

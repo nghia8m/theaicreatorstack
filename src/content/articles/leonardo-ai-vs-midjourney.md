@@ -5,7 +5,7 @@ metaDescription: "Leonardo AI vs Midjourney compared for 2026 — image quality,
 category: "AI Design & Thumbnail Tools"
 categoryLink: "/ai-design"
 ogImage: "/images/cards/leonardo-ai-vs-midjourney.jpg"
-cardImage: "/images/cards/leonardo-ai-vs-midjourney.jpg"
+cardImage: "/images/tools/leonardo-ai.jpg"
 cardTitle: "Leonardo AI vs Midjourney"
 cardSummary: "Control and a free plan, or raw beauty? The two biggest AI art tools compared for creators."
 publishedLabel: "Updated July 2026"

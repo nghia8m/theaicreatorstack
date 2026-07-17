@@ -5,7 +5,7 @@ metaDescription: "Design a professional logo with AI. Compare Looka, Canva and B
 category: "AI Design & Thumbnail Tools"
 categoryLink: "/ai-design"
 ogImage: "/images/cards/best-ai-logo-makers-creators-brands.jpg"
-cardImage: "/images/cards/best-ai-logo-makers-creators-brands.jpg"
+cardImage: "/images/tools/looka.jpg"
 cardTitle: "Best AI Logo Makers"
 cardSummary: "Get a professional logo and brand kit without hiring a designer — the best AI logo makers compared."
 publishedLabel: "Updated July 2026"

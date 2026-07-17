@@ -5,7 +5,7 @@ metaDescription: "Add professional voiceovers to your YouTube videos with AI. Co
 category: "AI Voice & Audio Tools"
 categoryLink: "/ai-voice"
 ogImage: "/images/cards/best-ai-voiceover-tools-youtube.jpg"
-cardImage: "/images/cards/best-ai-voiceover-tools-youtube.jpg"
+cardImage: "/images/tools/murf-ai.jpg"
 cardTitle: "Best AI Voiceover Tools for YouTube"
 cardSummary: "Narrate your videos without a mic. The AI voiceover tools that sound professional enough for YouTube."
 publishedLabel: "Updated July 2026"

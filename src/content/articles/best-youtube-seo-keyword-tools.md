@@ -5,7 +5,7 @@ metaDescription: "Rank your videos with the best YouTube SEO and keyword tools o
 category: "AI SEO & Analytics Tools"
 categoryLink: "/ai-seo"
 ogImage: "/images/cards/best-youtube-seo-keyword-tools.jpg"
-cardImage: "/images/cards/best-youtube-seo-keyword-tools.jpg"
+cardImage: "/images/tools/keywords-everywhere.jpg"
 cardTitle: "Best YouTube SEO Tools"
 cardSummary: "Find the keywords and tags that get your videos discovered — the best YouTube SEO tools for creators."
 publishedLabel: "Updated July 2026"

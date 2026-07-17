@@ -5,7 +5,7 @@ metaDescription: "Grow and write your newsletter faster with AI. Compare beehiiv
 category: "AI Writing Tools"
 categoryLink: "/ai-writing"
 ogImage: "/images/cards/best-ai-newsletter-email-writing-tools.jpg"
-cardImage: "/images/cards/best-ai-newsletter-email-writing-tools.jpg"
+cardImage: "/images/tools/beehiiv.jpg"
 cardTitle: "Best AI Newsletter & Email Tools"
 cardSummary: "Write, grow and monetise a newsletter with AI — the platforms and writing tools built for email-first creators."
 publishedLabel: "Updated July 2026"

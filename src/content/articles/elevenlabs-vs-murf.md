@@ -5,7 +5,7 @@ metaDescription: "ElevenLabs vs Murf compared for 2026 — voice realism, clonin
 category: "AI Voice & Audio Tools"
 categoryLink: "/ai-voice"
 ogImage: "/images/cards/elevenlabs-vs-murf.jpg"
-cardImage: "/images/cards/elevenlabs-vs-murf.jpg"
+cardImage: "/images/tools/elevenlabs.jpg"
 cardTitle: "ElevenLabs vs Murf"
 cardSummary: "Raw realism or precise control? The two leading AI voice tools go head-to-head for creators."
 publishedLabel: "Updated July 2026"

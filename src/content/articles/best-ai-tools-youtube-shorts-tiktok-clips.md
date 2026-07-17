@@ -5,7 +5,7 @@ metaDescription: "Make scroll-stopping YouTube Shorts and TikToks with AI. Compa
 category: "AI Video Tools"
 categoryLink: "/ai-video"
 ogImage: "/images/cards/best-ai-tools-youtube-shorts-tiktok-clips.jpg"
-cardImage: "/images/cards/best-ai-tools-youtube-shorts-tiktok-clips.jpg"
+cardImage: "/images/tools/veed.jpg"
 cardTitle: "Best AI Tools for Shorts & TikTok"
 cardSummary: "Vertical video, animated captions and auto-reframing — the AI tools built for short-form in 2026."
 publishedLabel: "Updated July 2026"

@@ -5,7 +5,7 @@ metaDescription: "Descript vs VEED compared for 2026 — text-based editing vers
 category: "AI Video Tools"
 categoryLink: "/ai-video"
 ogImage: "/images/cards/descript-vs-veed.jpg"
-cardImage: "/images/cards/descript-vs-veed.jpg"
+cardImage: "/images/tools/descript.jpg"
 cardTitle: "Descript vs VEED"
 cardSummary: "Text-based editing or browser-based speed? A head-to-head for creators choosing an AI video editor."
 publishedLabel: "Updated July 2026"

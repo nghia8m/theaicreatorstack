@@ -5,7 +5,7 @@ metaDescription: "The best AI tools for podcasters in 2026 — Podcastle, Descri
 category: "AI Voice & Audio Tools"
 categoryLink: "/ai-voice"
 ogImage: "/images/cards/best-ai-tools-for-podcasters.jpg"
-cardImage: "/images/cards/best-ai-tools-for-podcasters.jpg"
+cardImage: "/images/tools/podcastle.jpg"
 cardTitle: "Best AI Tools for Podcasters"
 cardSummary: "Record, edit and repurpose your podcast with AI — the tools that cover the whole episode workflow."
 publishedLabel: "Updated July 2026"

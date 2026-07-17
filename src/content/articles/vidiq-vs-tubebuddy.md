@@ -5,7 +5,7 @@ metaDescription: "VidIQ vs TubeBuddy compared for 2026 — YouTube SEO, AI featu
 category: "AI SEO & Analytics Tools"
 categoryLink: "/ai-seo"
 ogImage: "/images/cards/vidiq-vs-tubebuddy.jpg"
-cardImage: "/images/cards/vidiq-vs-tubebuddy.jpg"
+cardImage: "/images/tools/vidiq.jpg"
 cardTitle: "VidIQ vs TubeBuddy"
 cardSummary: "The two biggest YouTube growth tools go head-to-head on SEO, AI and price for creators."
 publishedLabel: "Updated July 2026"

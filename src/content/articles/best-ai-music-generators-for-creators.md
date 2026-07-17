@@ -5,7 +5,7 @@ metaDescription: "Create royalty-free background music with AI. Compare Suno, Ud
 category: "AI Voice & Audio Tools"
 categoryLink: "/ai-voice"
 ogImage: "/images/cards/best-ai-music-generators-for-creators.jpg"
-cardImage: "/images/cards/best-ai-music-generators-for-creators.jpg"
+cardImage: "/images/tools/soundraw.jpg"
 cardTitle: "Best AI Music Generators"
 cardSummary: "Royalty-free background tracks and full songs from a prompt — the best AI music generators for creators."
 publishedLabel: "Updated July 2026"

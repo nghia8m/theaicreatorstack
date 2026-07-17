@@ -5,7 +5,7 @@ metaDescription: "HeyGen vs Synthesia compared for 2026 — avatar realism, lang
 category: "AI Video Tools"
 categoryLink: "/ai-video"
 ogImage: "/images/cards/heygen-vs-synthesia.jpg"
-cardImage: "/images/cards/heygen-vs-synthesia.jpg"
+cardImage: "/images/tools/heygen.jpg"
 cardTitle: "HeyGen vs Synthesia"
 cardSummary: "The two biggest AI avatar platforms, compared on realism, features and price for creators."
 publishedLabel: "Updated July 2026"

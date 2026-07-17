@@ -5,7 +5,7 @@ metaDescription: "Semrush vs Ahrefs compared for 2026 — keyword data, backlink
 category: "AI SEO & Analytics Tools"
 categoryLink: "/ai-seo"
 ogImage: "/images/cards/semrush-vs-ahrefs.jpg"
-cardImage: "/images/cards/semrush-vs-ahrefs.jpg"
+cardImage: "/images/tools/ahrefs.jpg"
 cardTitle: "Semrush vs Ahrefs"
 cardSummary: "The two heavyweight SEO suites go head-to-head on data, features and price for serious creators."
 publishedLabel: "Updated July 2026"

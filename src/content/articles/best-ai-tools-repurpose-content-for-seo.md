@@ -5,7 +5,7 @@ metaDescription: "Turn one piece of content into many with AI. Compare Repurpose
 category: "AI SEO & Analytics Tools"
 categoryLink: "/ai-seo"
 ogImage: "/images/cards/best-ai-tools-repurpose-content-for-seo.jpg"
-cardImage: "/images/cards/best-ai-tools-repurpose-content-for-seo.jpg"
+cardImage: "/images/tools/castmagic.jpg"
 cardTitle: "Best Content Repurposing Tools"
 cardSummary: "One video, ten pieces of content — the AI tools that turn your existing work into SEO-friendly assets."
 publishedLabel: "Updated July 2026"

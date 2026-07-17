@@ -5,7 +5,7 @@ metaDescription: "Surfer SEO vs Frase compared for 2026 — content optimization
 category: "AI SEO & Analytics Tools"
 categoryLink: "/ai-seo"
 ogImage: "/images/cards/surfer-seo-vs-frase.jpg"
-cardImage: "/images/cards/surfer-seo-vs-frase.jpg"
+cardImage: "/images/tools/surfer-seo.jpg"
 cardTitle: "Surfer SEO vs Frase"
 cardSummary: "Real-time optimization or research-driven briefs? The two top content SEO tools compared."
 publishedLabel: "Updated July 2026"

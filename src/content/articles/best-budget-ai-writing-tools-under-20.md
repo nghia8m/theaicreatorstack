@@ -5,7 +5,7 @@ metaDescription: "The best cheap AI writing tools under $20 a month in 2026 for 
 category: "AI Writing Tools"
 categoryLink: "/ai-writing"
 ogImage: "/images/cards/best-budget-ai-writing-tools-under-20.jpg"
-cardImage: "/images/cards/best-budget-ai-writing-tools-under-20.jpg"
+cardImage: "/images/tools/notion-ai.jpg"
 cardTitle: "Best Budget AI Writing Tools"
 cardSummary: "You don't need a $60 subscription to write with AI. These four tools cost under $20 a month — or nothing at all."
 publishedLabel: "Updated July 2026"

@@ -5,7 +5,7 @@ metaDescription: "Make click-worthy YouTube thumbnails with AI. Compare Canva, A
 category: "AI Design & Thumbnail Tools"
 categoryLink: "/ai-design"
 ogImage: "/images/cards/best-ai-thumbnail-makers-youtube.jpg"
-cardImage: "/images/cards/best-ai-thumbnail-makers-youtube.jpg"
+cardImage: "/images/tools/ideogram.jpg"
 cardTitle: "Best AI Thumbnail Makers"
 cardSummary: "Design scroll-stopping thumbnails fast — the AI-powered thumbnail makers that boost your click-through rate."
 publishedLabel: "Updated July 2026"

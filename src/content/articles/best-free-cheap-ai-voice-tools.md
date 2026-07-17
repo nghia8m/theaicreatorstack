@@ -5,7 +5,7 @@ metaDescription: "The best free and affordable AI voice tools in 2026 — Eleven
 category: "AI Voice & Audio Tools"
 categoryLink: "/ai-voice"
 ogImage: "/images/cards/best-free-cheap-ai-voice-tools.jpg"
-cardImage: "/images/cards/best-free-cheap-ai-voice-tools.jpg"
+cardImage: "/images/tools/speechify.jpg"
 cardTitle: "Best Free & Cheap AI Voice Tools"
 cardSummary: "Professional AI voices without the professional price — the best free tiers and budget plans for creators."
 publishedLabel: "Updated July 2026"

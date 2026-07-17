@@ -5,7 +5,7 @@ metaDescription: "The best free AI image generators and design tools in 2026 —
 category: "AI Design & Thumbnail Tools"
 categoryLink: "/ai-design"
 ogImage: "/images/cards/best-free-ai-image-design-tools.jpg"
-cardImage: "/images/cards/best-free-ai-image-design-tools.jpg"
+cardImage: "/images/tools/adobe-firefly.jpg"
 cardTitle: "Best Free AI Design Tools"
 cardSummary: "Create images and graphics without spending a cent — the best free AI design tools and what their limits really allow."
 publishedLabel: "Updated July 2026"

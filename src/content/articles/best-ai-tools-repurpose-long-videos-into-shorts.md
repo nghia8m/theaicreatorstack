@@ -5,7 +5,7 @@ metaDescription: "Turn podcasts, webinars and long videos into viral shorts with
 category: "AI Video Tools"
 categoryLink: "/ai-video"
 ogImage: "/images/cards/best-ai-tools-repurpose-long-videos-into-shorts.jpg"
-cardImage: "/images/cards/best-ai-tools-repurpose-long-videos-into-shorts.jpg"
+cardImage: "/images/tools/opusclip.jpg"
 cardTitle: "Best AI Video Repurposing Tools"
 cardSummary: "Feed in one long video and get a batch of ready-to-post shorts — the AI clipping tools worth using in 2026."
 publishedLabel: "Updated July 2026"

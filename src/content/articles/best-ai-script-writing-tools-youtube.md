@@ -5,7 +5,7 @@ metaDescription: "The best AI tools for writing YouTube scripts in 2026 — comp
 category: "AI Writing Tools"
 categoryLink: "/ai-writing"
 ogImage: "/images/cards/best-ai-script-writing-tools-youtube.jpg"
-cardImage: "/images/cards/best-ai-script-writing-tools-youtube.jpg"
+cardImage: "/images/tools/copy-ai.jpg"
 cardTitle: "Best AI Script Writing Tools"
 cardSummary: "AI tools that help you write tighter YouTube scripts with stronger hooks and better pacing — ranked for creators."
 publishedLabel: "Updated July 2026"

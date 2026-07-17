@@ -5,7 +5,7 @@ metaDescription: "Write scroll-stopping YouTube titles, hooks and descriptions w
 category: "AI Writing Tools"
 categoryLink: "/ai-writing"
 ogImage: "/images/cards/best-ai-tools-youtube-titles-hooks-descriptions.jpg"
-cardImage: "/images/cards/best-ai-tools-youtube-titles-hooks-descriptions.jpg"
+cardImage: "/images/tools/anyword.jpg"
 cardTitle: "Best AI Tools for Titles & Hooks"
 cardSummary: "The AI tools that help you write click-worthy titles, retention-boosting hooks and SEO-friendly descriptions."
 publishedLabel: "Updated July 2026"

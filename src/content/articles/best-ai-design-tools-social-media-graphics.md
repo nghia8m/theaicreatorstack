@@ -5,7 +5,7 @@ metaDescription: "Design on-brand social media graphics fast with AI. Compare Ca
 category: "AI Design & Thumbnail Tools"
 categoryLink: "/ai-design"
 ogImage: "/images/cards/best-ai-design-tools-social-media-graphics.jpg"
-cardImage: "/images/cards/best-ai-design-tools-social-media-graphics.jpg"
+cardImage: "/images/tools/adobe-express.jpg"
 cardTitle: "Best AI Tools for Social Graphics"
 cardSummary: "On-brand posts, carousels and stories in minutes — the AI design tools built for social media creators."
 publishedLabel: "Updated July 2026"

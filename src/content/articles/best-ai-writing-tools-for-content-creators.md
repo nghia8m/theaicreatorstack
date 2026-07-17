@@ -5,7 +5,7 @@ metaDescription: "We tested the top AI writing tools for YouTubers, bloggers and
 category: "AI Writing Tools"
 categoryLink: "/ai-writing"
 ogImage: "/images/cards/best-ai-writing-tools-for-content-creators.jpg"
-cardImage: "/images/cards/best-ai-writing-tools-for-content-creators.jpg"
+cardImage: "/images/tools/jasper.jpg"
 cardTitle: "Best AI Writing Tools for Creators"
 cardSummary: "The five AI writing tools we'd actually pay for in 2026 — ranked by output quality, ease of use and value for creators."
 publishedLabel: "Updated July 2026"

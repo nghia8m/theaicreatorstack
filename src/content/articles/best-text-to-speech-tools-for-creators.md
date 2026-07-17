@@ -5,7 +5,7 @@ metaDescription: "The best text-to-speech tools for creators in 2026 — Murf, F
 category: "AI Voice & Audio Tools"
 categoryLink: "/ai-voice"
 ogImage: "/images/cards/best-text-to-speech-tools-for-creators.jpg"
-cardImage: "/images/cards/best-text-to-speech-tools-for-creators.jpg"
+cardImage: "/images/tools/murf-ai.jpg"
 cardTitle: "Best Text-to-Speech Tools"
 cardSummary: "Turn any script into natural speech. The best TTS tools for narration, accessibility and productivity."
 publishedLabel: "Updated July 2026"

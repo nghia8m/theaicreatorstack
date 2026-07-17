@@ -5,7 +5,7 @@ metaDescription: "Understand your channel and competitors with the best YouTube 
 category: "AI SEO & Analytics Tools"
 categoryLink: "/ai-seo"
 ogImage: "/images/cards/best-youtube-analytics-tools-creators.jpg"
-cardImage: "/images/cards/best-youtube-analytics-tools-creators.jpg"
+cardImage: "/images/tools/tubebuddy.jpg"
 cardTitle: "Best YouTube Analytics Tools"
 cardSummary: "Go beyond YouTube Studio — the analytics tools that reveal what's working and where to grow next."
 publishedLabel: "Updated July 2026"

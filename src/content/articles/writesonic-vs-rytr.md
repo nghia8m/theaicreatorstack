@@ -5,7 +5,7 @@ metaDescription: "Writesonic vs Rytr compared for 2026 — pricing, output, SEO 
 category: "AI Writing Tools"
 categoryLink: "/ai-writing"
 ogImage: "/images/cards/writesonic-vs-rytr.jpg"
-cardImage: "/images/cards/writesonic-vs-rytr.jpg"
+cardImage: "/images/tools/rytr.jpg"
 cardTitle: "Writesonic vs Rytr"
 cardSummary: "A budget AI writer versus an SEO content platform — which one fits your workflow and wallet?"
 publishedLabel: "Updated July 2026"

@@ -159,15 +159,18 @@ collections:
                 fields:
                   - { label: "Image", name: image, widget: image, choose_url: true }
                   - { label: "Alt text", name: alt, widget: string, required: false }
-          - label: "Featured deal"
+          - label: "Featured deal / Editor's pick card (homepage 6th card)"
             name: deals
             widget: object
             required: false
+            hint: "Fills the 6th slot in the homepage category grid. Point 'link' at an internal review for now, or an approved affiliate URL later."
             fields:
-              - { label: "Image", name: image, widget: image, required: false, choose_url: true }
+              - { label: "Image (optional, for future use)", name: image, widget: image, required: false, choose_url: true }
+              - { label: "Badge label", name: badge, widget: string, required: false, default: "Featured", hint: "e.g. Editor's Pick, Deal, 40% Off" }
               - { label: "Title", name: title, widget: string, required: false }
               - { label: "Text", name: text, widget: text, required: false }
-              - { label: "Link", name: link, widget: string, required: false }
+              - { label: "Button text (CTA)", name: cta, widget: string, required: false, default: "Check it out" }
+              - { label: "Link (internal path or affiliate URL)", name: link, widget: string, required: false }
           - label: "Custom code (GA / PartnerStack tracking)"
             name: code
             widget: object

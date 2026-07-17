@@ -8,6 +8,8 @@ const articles = all.sort((a, b) => a.data.order - b.data.order || a.data.title.
 const featured = articles.slice(0, 6);
 
 const slides = site.hero?.slides ?? [];
+const deals = site.deals ?? {};
+const hasDeal = deals && deals.title && deals.link;
 
 const categories = [
   { name: "AI Writing", link: "/ai-writing", desc: "Scriptwriting, blogs & captions" },
@@ -69,6 +71,16 @@ const categories = [
             </div>
           </a>
         ))}
+        {hasDeal && (
+          <a href={deals.link} class="card card-deal" rel={deals.link.startsWith("http") ? "sponsored nofollow noopener" : undefined} target={deals.link.startsWith("http") ? "_blank" : undefined}>
+            <div class="card-body">
+              <span class="card-cat deal-badge">★ {deals.badge || "Featured"}</span>
+              <h3>{deals.title}</h3>
+              <p>{deals.text}</p>
+              <span class="card-link deal-cta">{deals.cta || "Check it out"} →</span>
+            </div>
+          </a>
+        )}
       </div>
     </div>
   </section>

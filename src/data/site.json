@@ -45,10 +45,12 @@
     ]
   },
   "deals": {
-    "image": "",
-    "title": "",
-    "text": "",
-    "link": ""
+    "image": "/images/categories/ai-video.jpg",
+    "badge": "Editor's Pick",
+    "title": "Best AI Video Editing Tools",
+    "text": "Start here — our tested, top-rated AI video editors for 2026, compared side by side.",
+    "cta": "See our top picks",
+    "link": "/best-ai-video-editing-tools-for-creators"
   },
   "code": {
     "customHead": "",

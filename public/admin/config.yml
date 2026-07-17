@@ -2,7 +2,7 @@ backend:
   name: github
   repo: nghia8m/theaicreatorstack
   branch: main
-  base_url: https://theaicreatorstack-oauth.YOUR-SUBDOMAIN.workers.dev # TODO: set to your deployed OAuth worker URL
+  base_url: https://theaicreatorstack-oauth.nghia8m.workers.dev
 
 # Uploaded media (tool screenshots, hero images) go here
 media_folder: "public/images"

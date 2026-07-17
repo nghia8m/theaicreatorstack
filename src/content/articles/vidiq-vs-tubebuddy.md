@@ -4,8 +4,8 @@ metaTitle: "VidIQ vs TubeBuddy (2026): Which Should You Use?"
 metaDescription: "VidIQ vs TubeBuddy compared for 2026 — YouTube SEO, AI features, channel management and pricing. The right growth tool for your channel."
 category: "AI SEO & Analytics Tools"
 categoryLink: "/ai-seo"
-ogImage: "/images/categories/ai-seo.jpg"
-cardImage: "/images/categories/ai-seo.jpg"
+ogImage: "/images/cards/vidiq-vs-tubebuddy.jpg"
+cardImage: "/images/cards/vidiq-vs-tubebuddy.jpg"
 cardTitle: "VidIQ vs TubeBuddy"
 cardSummary: "The two biggest YouTube growth tools go head-to-head on SEO, AI and price for creators."
 publishedLabel: "Updated July 2026"
@@ -17,6 +17,8 @@ quickPick:
   reason: "For SEO data and AI-powered guidance, VidIQ leads. Choose TubeBuddy if cheaper pricing and channel-management tools like A/B thumbnail testing matter more to you."
 products:
   - name: "VidIQ"
+    image: "/images/tools/vidiq.jpg"
+    imageCaption: "VidIQ homepage (screenshot captured July 2026)."
     award: "Best for SEO and AI"
     affiliateUrl: ""
     pricingTiers:
@@ -40,6 +42,8 @@ products:
     ratingCount: 640
     reviewBody: "The better pick for creators who want SEO data and AI recommendations."
   - name: "TubeBuddy"
+    image: "/images/tools/tubebuddy.jpg"
+    imageCaption: "TubeBuddy homepage (screenshot captured July 2026)."
     award: "Best for management and testing"
     affiliateUrl: ""
     pricingTiers:

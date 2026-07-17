@@ -222,7 +222,14 @@ h1, h2, h3, h4 {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  opacity: 0.32;
+  opacity: 0.95;
+}
+.hero-slide::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(15, 23, 42, 0.7) 0%, rgba(15, 23, 42, 0.25) 55%, rgba(15, 23, 42, 0.55) 100%);
+  z-index: 1;
 }
 .hero-flat {
   min-height: 340px;
@@ -329,6 +336,116 @@ h1, h2, h3, h4 {
   font-weight: 700;
   font-size: 0.9rem;
   margin-top: auto;
+}
+
+/* ---------- Stats strip ---------- */
+.stats-strip {
+  background: var(--color-brand-ink);
+  border-bottom: 3px solid var(--color-accent);
+}
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  padding: 26px 20px;
+  text-align: center;
+}
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.stat-num {
+  font-size: 1.7rem;
+  font-weight: 900;
+  color: var(--color-accent);
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+.stat-label {
+  font-size: 0.82rem;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+
+/* ---------- 4-up grid (use cases, free tools, trust) ---------- */
+.card-grid-4 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 22px;
+}
+
+/* ---------- Use-case cards ---------- */
+.usecase .card-body {
+  gap: 8px;
+}
+.usecase-icon,
+.cat-ico {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 46px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, rgba(6, 182, 212, 0.14), rgba(29, 78, 216, 0.14));
+  color: var(--color-brand-700);
+  border: 1px solid var(--color-border);
+}
+.usecase-icon svg,
+.cat-ico svg {
+  width: 24px;
+  height: 24px;
+}
+.cat-ico {
+  margin-bottom: 4px;
+}
+.usecase h3 {
+  font-size: 1.02rem;
+}
+
+/* ---------- Editor's top picks table ---------- */
+.pick-link {
+  font-weight: 700;
+  white-space: nowrap;
+}
+.picks-note {
+  margin-top: 14px;
+  font-size: 0.82rem;
+  color: var(--color-text-mute);
+  text-align: center;
+}
+
+/* ---------- Trust strip ---------- */
+.trust-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 24px;
+}
+.trust-item {
+  border-top: 3px solid var(--color-accent);
+  padding-top: 16px;
+}
+.trust-item h4 {
+  margin: 0 0 8px;
+  font-size: 1rem;
+}
+.trust-item p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--color-text-mute);
+}
+
+/* ---------- Homepage FAQ ---------- */
+.faq-home {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Comparison card accent */
+.card-vs .card-cat {
+  color: var(--color-brand-700);
 }
 
 /* Featured deal / editor's pick card */
@@ -552,6 +669,79 @@ h1, h2, h3, h4 {
   margin-bottom: 6px;
 }
 
+/* at-a-glance rating chart */
+.rating-chart {
+  margin: 28px 0;
+  padding: 22px 24px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-bg-soft);
+}
+.rating-chart figcaption {
+  font-weight: 800;
+  font-size: 1.05rem;
+  color: var(--color-brand-ink);
+  margin-bottom: 16px;
+}
+.rating-row {
+  display: grid;
+  grid-template-columns: 130px 1fr 84px;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+.rating-name {
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--color-brand-700);
+  text-align: right;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.rating-track {
+  background: var(--color-bg-mute);
+  border-radius: 999px;
+  height: 22px;
+  overflow: hidden;
+}
+.rating-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--color-accent), var(--color-brand-700));
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  min-width: 34px;
+  transition: width 0.3s ease;
+}
+.rating-val {
+  color: #fff;
+  font-size: 0.76rem;
+  font-weight: 800;
+  padding-right: 10px;
+}
+.rating-cost {
+  font-weight: 800;
+  font-size: 0.85rem;
+  color: var(--color-brand-ink);
+  white-space: nowrap;
+}
+.rating-scale {
+  margin: 12px 0 0;
+  font-size: 0.78rem;
+  color: var(--color-text-mute);
+}
+@media (max-width: 560px) {
+  .rating-row {
+    grid-template-columns: 96px 1fr 66px;
+    gap: 8px;
+  }
+  .rating-name {
+    font-size: 0.82rem;
+  }
+}
+
 /* comparison table */
 .compare-wrap {
   overflow-x: auto;
@@ -672,6 +862,13 @@ h1, h2, h3, h4 {
 }
 
 @media (max-width: 820px) {
+  .stats {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px 12px;
+  }
+  .stat-num {
+    font-size: 1.4rem;
+  }
   .footer-grid {
     grid-template-columns: 1fr;
     gap: 26px;

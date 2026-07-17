@@ -5,26 +5,153 @@ import site from "../data/site.json";
 
 const all = await getCollection("articles", ({ data }) => !data.draft);
 const articles = all.sort((a, b) => a.data.order - b.data.order || a.data.title.localeCompare(b.data.title));
-const featured = articles.slice(0, 6);
 
 const slides = site.hero?.slides ?? [];
 const deals = site.deals ?? {};
 const hasDeal = deals && deals.title && deals.link;
 
+// Inline stroke icons (Lucide-style), inherit currentColor.
+const ICONS = {
+  writing: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>',
+  video: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m10 9 5 3-5 3z"/></svg>',
+  voice: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 10a7 7 0 0 0 14 0"/><line x1="12" y1="17" x2="12" y2="22"/></svg>',
+  design: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-5-5L5 21"/></svg>',
+  seo: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>',
+  user: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg>',
+};
+
 const categories = [
-  { name: "AI Writing", link: "/ai-writing", desc: "Scriptwriting, blogs & captions" },
-  { name: "AI Video", link: "/ai-video", desc: "Editing, avatars & clip repurposing" },
-  { name: "AI Voice", link: "/ai-voice", desc: "Voiceovers, TTS & audio cleanup" },
-  { name: "AI Design", link: "/ai-design", desc: "Thumbnails, images & graphics" },
-  { name: "AI SEO", link: "/ai-seo", desc: "Keywords, tags & analytics" },
+  { name: "AI Writing", link: "/ai-writing", desc: "Scriptwriting, blogs & captions", icon: "writing" },
+  { name: "AI Video", link: "/ai-video", desc: "Editing, avatars & clip repurposing", icon: "video" },
+  { name: "AI Voice", link: "/ai-voice", desc: "Voiceovers, TTS & audio cleanup", icon: "voice" },
+  { name: "AI Design", link: "/ai-design", desc: "Thumbnails, images & graphics", icon: "design" },
+  { name: "AI SEO", link: "/ai-seo", desc: "Keywords, tags & analytics", icon: "seo" },
 ];
+
+// ---------- helpers ----------
+function startingPrice(p) {
+  for (const t of p?.pricingTiers ?? []) if (/free/i.test(t.price)) return "Free";
+  for (const t of p?.pricingTiers ?? []) {
+    const m = t.price?.replace(",", "").match(/([0-9]+(\.[0-9]+)?)/);
+    if (m && m[1] !== "0") return "$" + m[1] + "/mo";
+  }
+  return p?.pricingTiers?.[0]?.price ?? "—";
+}
+
+// ---------- stats strip ----------
+const toolNames = new Set();
+for (const a of articles) for (const p of a.data.products ?? []) toolNames.add(p.name.trim().toLowerCase());
+const stats = [
+  { num: `${articles.length}`, label: "in-depth reviews" },
+  { num: `${toolNames.size}+`, label: "AI tools tested" },
+  { num: `${categories.length}`, label: "workflow stages" },
+  { num: "July 2026", label: "pricing last verified" },
+];
+
+// ---------- editor's top picks (flagship article per category) ----------
+const topPicks = categories
+  .map((c) => {
+    const flagship = articles.filter((a) => a.data.categoryLink === c.link)[0];
+    if (!flagship) return null;
+    const pickName = flagship.data.quickPick?.name;
+    const product = (flagship.data.products ?? []).find((p) => p.name === pickName) ?? flagship.data.products?.[0];
+    return {
+      category: c.name,
+      categoryLink: c.link,
+      tool: pickName ?? product?.name,
+      reason: flagship.data.quickPick?.reason ?? "",
+      award: product?.award ?? "",
+      rating: product?.ratingValue,
+      price: startingPrice(product),
+      href: `/${flagship.id}`,
+    };
+  })
+  .filter(Boolean);
+
+// ---------- popular comparisons ----------
+const comparisons = articles.filter((a) => / vs /i.test(a.data.title)).slice(0, 6);
+
+// ---------- browse by use case ----------
+const findId = (id) => articles.find((a) => a.id === id);
+const useCases = [
+  { icon: "video", title: "I'm starting a YouTube channel", desc: "Scripts, editing and thumbnails to get your first videos live.", id: "best-ai-video-editing-tools-for-creators" },
+  { icon: "voice", title: "I run a podcast", desc: "Record, clean up and repurpose every episode with AI.", id: "best-ai-tools-for-podcasters" },
+  { icon: "writing", title: "I'm a blogger", desc: "Draft faster and rank higher with AI writing and SEO tools.", id: "best-ai-blog-writing-tools-for-bloggers" },
+  { icon: "user", title: "I run a faceless channel", desc: "Generate video, voice and visuals without ever being on camera.", id: "best-ai-video-generators-faceless-channels" },
+].filter((u) => findId(u.id));
+
+// ---------- best free tools ----------
+const freeIds = [
+  "best-budget-ai-writing-tools-under-20",
+  "best-budget-ai-video-tools-beginners",
+  "best-free-cheap-ai-voice-tools",
+  "best-free-ai-image-design-tools",
+];
+const freeArticles = freeIds.map(findId).filter(Boolean);
+
+// ---------- latest reviews (avoid duplicating what's already on the page) ----------
+const usedIds = new Set([
+  ...topPicks.map((p) => p.href.slice(1)),
+  ...comparisons.map((a) => a.id),
+  ...useCases.map((u) => u.id),
+  ...freeIds,
+]);
+const latest = articles.filter((a) => !usedIds.has(a.id)).slice(0, 6);
+
+// ---------- trust strip ----------
+const trust = [
+  { title: "Two sources minimum", text: "Every price and feature is cross-checked against at least two sources, including the tool's official site." },
+  { title: "Date-stamped pricing", text: "Each review shows when we last verified its pricing, because SaaS plans change constantly." },
+  { title: "Written from scratch", text: "We never copy specs or paragraphs from other review sites. Every word is our own." },
+  { title: "Never pay-to-play", text: "Affiliate links help fund the site, but they never influence our rankings or ratings." },
+];
+
+// ---------- FAQ ----------
+const faqs = [
+  {
+    q: "What are the best AI tools for content creators in 2026?",
+    a: "It depends on your workflow stage. Our current top picks are Jasper for writing, Descript for video editing, ElevenLabs for voice, Canva for design and Surfer SEO for SEO — but the right tool depends on your budget and what you publish. Our category guides compare the alternatives in detail.",
+  },
+  {
+    q: "Are paid AI tools worth it, or are free ones enough?",
+    a: "Free tiers go a long way. Many creators run their entire stack on free plans from tools like ChatGPT, Canva, Leonardo and VEED. Paid plans earn their keep once you need commercial rights, higher limits, brand-voice controls or team features.",
+  },
+  {
+    q: "Which AI tools have genuinely useful free plans?",
+    a: "Canva, Leonardo.ai, Ideogram, VEED, OpusClip, Rytr, Copy.ai and ElevenLabs all offer free tiers you can do real work on. Note that some free plans, including ElevenLabs', don't grant commercial rights — check before monetising.",
+  },
+  {
+    q: "Will Google or YouTube penalise AI-generated content?",
+    a: "Neither penalises AI use itself; both target low-effort, unhelpful content. Use AI to draft and speed up production, then add your own expertise, examples and voice before publishing.",
+  },
+  {
+    q: "How do you decide which tools to recommend?",
+    a: "We group tools by workflow stage, cross-check every factual claim against at least two sources, and judge each tool on who it genuinely suits. We date-stamp every review so you know when its pricing was last verified.",
+  },
+  {
+    q: "Do you earn money from these recommendations?",
+    a: "Yes — some links are affiliate links, and we may earn a commission at no extra cost to you. This never determines which tools we feature or how we rank them. See our affiliate disclosure for full details.",
+  },
+];
+
+const faqLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((f) => ({
+    "@type": "Question",
+    name: f.q,
+    acceptedAnswer: { "@type": "Answer", text: f.a },
+  })),
+};
 ---
 
 <BaseLayout
   title="AI Creator Stack — Honest Reviews of AI Tools for Content Creators"
   description="Hands-on, no-hype reviews of the best AI tools for YouTubers, TikTokers, bloggers and podcasters — organized by every stage of the creator workflow."
   canonicalPath="/"
+  jsonLd={[faqLd]}
 >
+  <!-- 1. HERO -->
   <section class="hero">
     {slides.length > 0 ? (
       <div class="hero-slides" data-hero>
@@ -54,6 +181,19 @@ const categories = [
     )}
   </section>
 
+  <!-- 2. STATS STRIP -->
+  <section class="stats-strip">
+    <div class="container stats">
+      {stats.map((s) => (
+        <div class="stat">
+          <span class="stat-num">{s.num}</span>
+          <span class="stat-label">{s.label}</span>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- 3. FIND TOOLS BY WORKFLOW STAGE -->
   <section class="section">
     <div class="container">
       <div class="section-head">
@@ -64,6 +204,7 @@ const categories = [
         {categories.map((c) => (
           <a href={c.link} class="card">
             <div class="card-body">
+              <span class="cat-ico" aria-hidden="true" set:html={ICONS[c.icon]} />
               <span class="card-cat">Category</span>
               <h3>{c.name}</h3>
               <p>{c.desc}</p>
@@ -85,15 +226,106 @@ const categories = [
     </div>
   </section>
 
-  {featured.length > 0 && (
+  <!-- 4. EDITOR'S TOP PICKS -->
+  <section class="section" style="background:var(--color-bg-soft);">
+    <div class="container">
+      <div class="section-head">
+        <h2>Editor's top picks</h2>
+        <p>In a hurry? These are the tools we'd choose first at each stage of the creator workflow.</p>
+      </div>
+      <div class="compare-wrap">
+        <table class="compare-table">
+          <thead>
+            <tr>
+              <th>Workflow stage</th>
+              <th>Our top pick</th>
+              <th>Why</th>
+              <th>From</th>
+              <th>Rating</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            {topPicks.map((p) => (
+              <tr>
+                <td><a href={p.categoryLink}>{p.category}</a></td>
+                <td>
+                  <strong>{p.tool}</strong>
+                  {p.award && <div style="font-size:0.78rem;color:var(--color-text-mute);">{p.award}</div>}
+                </td>
+                <td style="max-width:340px;">{p.reason}</td>
+                <td class="price">{p.price}</td>
+                <td>{p.rating ? `${p.rating.toFixed(1)} / 5` : "—"}</td>
+                <td><a href={p.href} class="pick-link">Read review →</a></td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <p class="picks-note">
+        Prices are the cheapest paid entry point and were last verified in July 2026 — always confirm on the tool's official site.
+      </p>
+    </div>
+  </section>
+
+  <!-- 5. POPULAR COMPARISONS -->
+  {comparisons.length > 0 && (
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Popular head-to-head comparisons</h2>
+          <p>Stuck between two tools? We put the big rivals side by side.</p>
+        </div>
+        <div class="card-grid">
+          {comparisons.map((a) => (
+            <a href={`/${a.id}`} class="card card-vs">
+              <div class="card-body">
+                <span class="card-cat">{a.data.category}</span>
+                <h3>{a.data.cardTitle ?? a.data.title}</h3>
+                <p>{a.data.cardSummary}</p>
+                <span class="card-link">Compare →</span>
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- 6. BROWSE BY USE CASE -->
+  {useCases.length > 0 && (
     <section class="section" style="background:var(--color-bg-soft);">
+      <div class="container">
+        <div class="section-head">
+          <h2>Where are you starting from?</h2>
+          <p>Jump straight to the stack that fits what you make.</p>
+        </div>
+        <div class="card-grid-4">
+          {useCases.map((u) => (
+            <a href={`/${u.id}`} class="card usecase">
+              <div class="card-body">
+                <span class="usecase-icon" aria-hidden="true" set:html={ICONS[u.icon]} />
+                <h3>{u.title}</h3>
+                <p>{u.desc}</p>
+                <span class="card-link">See the tools →</span>
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- 7. LATEST REVIEWS -->
+  {latest.length > 0 && (
+    <section class="section">
       <div class="container">
         <div class="section-head">
           <h2>Latest reviews</h2>
           <p>Fresh comparisons and buyer's guides, updated for 2026.</p>
         </div>
         <div class="card-grid">
-          {featured.map((a) => (
+          {latest.map((a) => (
             <a href={`/${a.id}`} class="card">
               {a.data.cardImage && <img class="card-img" src={a.data.cardImage} alt={a.data.cardTitle ?? a.data.title} loading="lazy" />}
               <div class="card-body">
@@ -108,6 +340,69 @@ const categories = [
       </div>
     </section>
   )}
+
+  <!-- 8. BEST FREE TOOLS -->
+  {freeArticles.length > 0 && (
+    <section class="section" style="background:var(--color-bg-soft);">
+      <div class="container">
+        <div class="section-head">
+          <h2>Best free &amp; budget AI tools</h2>
+          <p>You don't need a big budget to build a serious creator stack. Start here.</p>
+        </div>
+        <div class="card-grid-4">
+          {freeArticles.map((a) => (
+            <a href={`/${a.id}`} class="card">
+              <div class="card-body">
+                <span class="card-cat" style="color:#16a34a;">Free &amp; budget</span>
+                <h3>{a.data.cardTitle ?? a.data.title}</h3>
+                <p>{a.data.cardSummary}</p>
+                <span class="card-link">Read review →</span>
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- 9. HOW WE TEST / TRUST -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2>How we test</h2>
+        <p>Why you can trust what you read here.</p>
+      </div>
+      <div class="trust-grid">
+        {trust.map((t) => (
+          <div class="trust-item">
+            <h4>{t.title}</h4>
+            <p>{t.text}</p>
+          </div>
+        ))}
+      </div>
+      <p style="text-align:center;margin-top:26px;">
+        <a href="/about" class="btn btn-primary">More about our process</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- 10. FAQ -->
+  <section class="section" style="background:var(--color-bg-soft);">
+    <div class="container">
+      <div class="section-head">
+        <h2>Frequently asked questions</h2>
+        <p>The questions creators ask us most about AI tools.</p>
+      </div>
+      <div class="faq faq-home">
+        {faqs.map((f) => (
+          <details>
+            <summary>{f.q}</summary>
+            <div class="answer">{f.a}</div>
+          </details>
+        ))}
+      </div>
+    </div>
+  </section>
 
   {slides.length > 1 && (
     <script>

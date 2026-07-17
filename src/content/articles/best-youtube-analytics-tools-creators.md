@@ -4,8 +4,8 @@ metaTitle: "Best YouTube Analytics Tools for Creators (2026)"
 metaDescription: "Understand your channel and competitors with the best YouTube analytics tools of 2026 — VidIQ, TubeBuddy and Social Blade compared for creators."
 category: "AI SEO & Analytics Tools"
 categoryLink: "/ai-seo"
-ogImage: "/images/categories/ai-seo.jpg"
-cardImage: "/images/categories/ai-seo.jpg"
+ogImage: "/images/cards/best-youtube-analytics-tools-creators.jpg"
+cardImage: "/images/cards/best-youtube-analytics-tools-creators.jpg"
 cardTitle: "Best YouTube Analytics Tools"
 cardSummary: "Go beyond YouTube Studio — the analytics tools that reveal what's working and where to grow next."
 publishedLabel: "Updated July 2026"
@@ -17,6 +17,8 @@ quickPick:
   reason: "The most actionable analytics, pairing channel and competitor data with an AI coach that turns numbers into concrete recommendations."
 products:
   - name: "VidIQ"
+    image: "/images/tools/vidiq.jpg"
+    imageCaption: "VidIQ homepage (screenshot captured July 2026)."
     award: "Best actionable analytics"
     affiliateUrl: ""
     pricingTiers:
@@ -43,6 +45,8 @@ products:
     ratingCount: 640
     reviewBody: "The most useful analytics tool for creators who want direction, not just data."
   - name: "TubeBuddy"
+    image: "/images/tools/tubebuddy.jpg"
+    imageCaption: "TubeBuddy homepage (screenshot captured July 2026)."
     award: "Best for testing and benchmarks"
     affiliateUrl: ""
     pricingTiers:
@@ -69,6 +73,8 @@ products:
     ratingCount: 590
     reviewBody: "The pick for creators who want to test and prove what works."
   - name: "Social Blade"
+    image: "/images/tools/social-blade.jpg"
+    imageCaption: "Social Blade homepage (screenshot captured July 2026)."
     award: "Best free tracking"
     affiliateUrl: ""
     pricingTiers:

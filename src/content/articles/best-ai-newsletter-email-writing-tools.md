@@ -4,8 +4,8 @@ metaTitle: "Best AI Newsletter & Email Tools for Creators (2026)"
 metaDescription: "Grow and write your newsletter faster with AI. Compare beehiiv, Jasper, Copy.ai and Rytr for email and newsletter creation for creators in 2026."
 category: "AI Writing Tools"
 categoryLink: "/ai-writing"
-ogImage: "/images/categories/ai-writing.jpg"
-cardImage: "/images/categories/ai-writing.jpg"
+ogImage: "/images/cards/best-ai-newsletter-email-writing-tools.jpg"
+cardImage: "/images/cards/best-ai-newsletter-email-writing-tools.jpg"
 cardTitle: "Best AI Newsletter & Email Tools"
 cardSummary: "Write, grow and monetise a newsletter with AI — the platforms and writing tools built for email-first creators."
 publishedLabel: "Updated July 2026"
@@ -17,6 +17,8 @@ quickPick:
   reason: "The newsletter platform built for growth, with AI writing baked in, a generous free tier and monetisation tools — the best home base for an email-first creator."
 products:
   - name: "beehiiv"
+    image: "/images/tools/beehiiv.jpg"
+    imageCaption: "beehiiv homepage (screenshot captured July 2026)."
     award: "Best all-in-one newsletter platform"
     affiliateUrl: ""
     pricingTiers:
@@ -43,6 +45,8 @@ products:
     ratingCount: 410
     reviewBody: "The best foundation for creators who want to build a newsletter as a real channel, not just send emails."
   - name: "Jasper"
+    image: "/images/tools/jasper.jpg"
+    imageCaption: "Jasper homepage (screenshot captured July 2026)."
     award: "Best for on-brand email copy"
     affiliateUrl: ""
     pricingTiers:
@@ -63,6 +67,8 @@ products:
     ratingCount: 428
     reviewBody: "The best writer for keeping every email on-brand, paired with your sending platform."
   - name: "Copy.ai"
+    image: "/images/tools/copy-ai.jpg"
+    imageCaption: "Copy.ai homepage (screenshot captured July 2026)."
     award: "Best for subject lines and variations"
     affiliateUrl: ""
     pricingTiers:
@@ -83,6 +89,8 @@ products:
     ratingCount: 312
     reviewBody: "A cheap, fast way to widen your subject-line and hook options."
   - name: "Rytr"
+    image: "/images/tools/rytr.jpg"
+    imageCaption: "Rytr homepage (screenshot captured July 2026)."
     award: "Best budget option"
     affiliateUrl: ""
     pricingTiers:

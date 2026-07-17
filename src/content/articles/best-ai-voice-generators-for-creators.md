@@ -4,8 +4,8 @@ metaTitle: "6 Best AI Voice Generators for Creators (2026)"
 metaDescription: "The best AI voice generators for creators in 2026 — ElevenLabs, Murf, Play.ht and LOVO compared on realism, languages, pricing and voice cloning."
 category: "AI Voice & Audio Tools"
 categoryLink: "/ai-voice"
-ogImage: "/images/categories/ai-voice.jpg"
-cardImage: "/images/categories/ai-voice.jpg"
+ogImage: "/images/cards/best-ai-voice-generators-for-creators.jpg"
+cardImage: "/images/cards/best-ai-voice-generators-for-creators.jpg"
 cardTitle: "Best AI Voice Generators"
 cardSummary: "Studio-quality voiceovers from text — the most realistic AI voice generators for creators, ranked."
 publishedLabel: "Updated July 2026"
@@ -17,6 +17,8 @@ quickPick:
   reason: "The most natural-sounding AI voices available, with excellent voice cloning and a free plan to test — the benchmark everyone else is measured against."
 products:
   - name: "ElevenLabs"
+    image: "/images/tools/elevenlabs.jpg"
+    imageCaption: "ElevenLabs homepage (screenshot captured July 2026)."
     award: "Best realism"
     affiliateUrl: ""
     pricingTiers:
@@ -43,6 +45,8 @@ products:
     ratingCount: 720
     reviewBody: "If voice quality is your priority, ElevenLabs is the one to beat."
   - name: "Murf AI"
+    image: "/images/tools/murf-ai.jpg"
+    imageCaption: "Murf AI homepage (screenshot captured July 2026)."
     award: "Best for professional voiceovers"
     affiliateUrl: ""
     pricingTiers:
@@ -95,6 +99,8 @@ products:
     ratingCount: 360
     reviewBody: "Best when you narrate a lot of long-form content and want generous limits."
   - name: "LOVO (Genny)"
+    image: "/images/tools/lovo-genny.jpg"
+    imageCaption: "LOVO (Genny) homepage (screenshot captured July 2026)."
     award: "Best all-in-one voice studio"
     affiliateUrl: ""
     pricingTiers:

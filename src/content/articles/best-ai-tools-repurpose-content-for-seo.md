@@ -4,8 +4,8 @@ metaTitle: "Best AI Tools to Repurpose Content for SEO (2026)"
 metaDescription: "Turn one piece of content into many with AI. Compare Repurpose.io, Castmagic and Descript for repurposing videos and podcasts into SEO content in 2026."
 category: "AI SEO & Analytics Tools"
 categoryLink: "/ai-seo"
-ogImage: "/images/categories/ai-seo.jpg"
-cardImage: "/images/categories/ai-seo.jpg"
+ogImage: "/images/cards/best-ai-tools-repurpose-content-for-seo.jpg"
+cardImage: "/images/cards/best-ai-tools-repurpose-content-for-seo.jpg"
 cardTitle: "Best Content Repurposing Tools"
 cardSummary: "One video, ten pieces of content — the AI tools that turn your existing work into SEO-friendly assets."
 publishedLabel: "Updated July 2026"
@@ -17,6 +17,8 @@ quickPick:
   reason: "Upload one episode and get transcripts, show notes, blog drafts, social posts and quotes automatically — the biggest repurposing time-saver for creators."
 products:
   - name: "Castmagic"
+    image: "/images/tools/castmagic.jpg"
+    imageCaption: "Castmagic homepage (screenshot captured July 2026)."
     award: "Best for turning audio into content"
     affiliateUrl: ""
     pricingTiers:
@@ -40,6 +42,8 @@ products:
     ratingCount: 260
     reviewBody: "The best tool for converting audio and video into SEO-ready written content."
   - name: "Repurpose.io"
+    image: "/images/tools/repurpose-io.jpg"
+    imageCaption: "Repurpose.io homepage (screenshot captured July 2026)."
     award: "Best for distributing clips"
     affiliateUrl: ""
     pricingTiers:
@@ -63,6 +67,8 @@ products:
     ratingCount: 240
     reviewBody: "The choice for automating distribution rather than generating new assets."
   - name: "Descript"
+    image: "/images/tools/descript.jpg"
+    imageCaption: "Descript homepage (screenshot captured July 2026)."
     award: "Best for clips plus transcripts"
     affiliateUrl: ""
     pricingTiers:

@@ -4,8 +4,8 @@ metaTitle: "HeyGen vs Synthesia (2026): Which Avatar Tool Wins?"
 metaDescription: "HeyGen vs Synthesia compared for 2026 — avatar realism, languages, pricing and the right pick for creators, educators and marketers."
 category: "AI Video Tools"
 categoryLink: "/ai-video"
-ogImage: "/images/categories/ai-video.jpg"
-cardImage: "/images/categories/ai-video.jpg"
+ogImage: "/images/cards/heygen-vs-synthesia.jpg"
+cardImage: "/images/cards/heygen-vs-synthesia.jpg"
 cardTitle: "HeyGen vs Synthesia"
 cardSummary: "The two biggest AI avatar platforms, compared on realism, features and price for creators."
 publishedLabel: "Updated July 2026"
@@ -17,6 +17,8 @@ quickPick:
   reason: "More natural avatars, faster custom avatar and voice cloning, and a more creator-friendly feel. Choose Synthesia if you need its huge avatar library for structured training content."
 products:
   - name: "HeyGen"
+    image: "/images/tools/heygen.jpg"
+    imageCaption: "HeyGen homepage (screenshot captured July 2026)."
     award: "Best for realism and flexibility"
     affiliateUrl: ""
     pricingTiers:
@@ -40,6 +42,8 @@ products:
     ratingCount: 430
     reviewBody: "The better pick for creators who want the most lifelike presenter with minimal fuss."
   - name: "Synthesia"
+    image: "/images/tools/synthesia.jpg"
+    imageCaption: "Synthesia homepage (screenshot captured July 2026)."
     award: "Best for structured content"
     affiliateUrl: ""
     pricingTiers:

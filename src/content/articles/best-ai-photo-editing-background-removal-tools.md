@@ -4,8 +4,8 @@ metaTitle: "Best AI Photo Editing & Background Tools (2026)"
 metaDescription: "Edit photos and remove backgrounds in seconds with AI. Compare Photoroom, Canva, Adobe Express and Cleanup.pictures for creators in 2026."
 category: "AI Design & Thumbnail Tools"
 categoryLink: "/ai-design"
-ogImage: "/images/categories/ai-design.jpg"
-cardImage: "/images/categories/ai-design.jpg"
+ogImage: "/images/cards/best-ai-photo-editing-background-removal-tools.jpg"
+cardImage: "/images/cards/best-ai-photo-editing-background-removal-tools.jpg"
 cardTitle: "Best AI Photo Editing Tools"
 cardSummary: "Remove backgrounds, clean up photos and retouch images in seconds — the best AI photo editing tools for creators."
 publishedLabel: "Updated July 2026"
@@ -17,6 +17,8 @@ quickPick:
   reason: "The fastest, cleanest background removal and product-photo editing, with unlimited background removal on an affordable plan — a creator's everyday image workhorse."
 products:
   - name: "Photoroom"
+    image: "/images/tools/photoroom.jpg"
+    imageCaption: "Photoroom homepage (screenshot captured July 2026)."
     award: "Best for background removal"
     affiliateUrl: ""
     pricingTiers:
@@ -40,6 +42,8 @@ products:
     ratingCount: 520
     reviewBody: "The everyday workhorse for background removal and quick product-photo editing."
   - name: "Canva"
+    image: "/images/tools/canva.jpg"
+    imageCaption: "Canva homepage (screenshot captured July 2026)."
     award: "Best all-in-one editor"
     affiliateUrl: ""
     pricingTiers:
@@ -60,6 +64,8 @@ products:
     ratingCount: 910
     reviewBody: "The most convenient option if you already design in Canva."
   - name: "Adobe Express"
+    image: "/images/tools/adobe-express.jpg"
+    imageCaption: "Adobe Express homepage (screenshot captured July 2026)."
     award: "Best for retouching quality"
     affiliateUrl: ""
     pricingTiers:
@@ -80,6 +86,8 @@ products:
     ratingCount: 430
     reviewBody: "The pick when retouching quality and commercial safety matter most."
   - name: "Cleanup.pictures"
+    image: "/images/tools/cleanup-pictures.jpg"
+    imageCaption: "Cleanup.pictures homepage (screenshot captured July 2026)."
     award: "Best free object removal"
     affiliateUrl: ""
     pricingTiers:

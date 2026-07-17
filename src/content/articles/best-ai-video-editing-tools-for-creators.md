@@ -4,8 +4,8 @@ metaTitle: "6 Best AI Video Editing Tools for Creators (2026)"
 metaDescription: "The best AI video editing tools for YouTubers and creators in 2026 — Descript, VEED, Filmora and Runway compared on features, price and ease of use."
 category: "AI Video Tools"
 categoryLink: "/ai-video"
-ogImage: "/images/categories/ai-video.jpg"
-cardImage: "/images/categories/ai-video.jpg"
+ogImage: "/images/cards/best-ai-video-editing-tools-for-creators.jpg"
+cardImage: "/images/cards/best-ai-video-editing-tools-for-creators.jpg"
 cardTitle: "Best AI Video Editing Tools"
 cardSummary: "From text-based editing to generative footage, these AI video editors save creators hours in the timeline."
 publishedLabel: "Updated July 2026"
@@ -17,6 +17,8 @@ quickPick:
   reason: "Its text-based editing — cut your video by deleting words in a transcript — is the single biggest time-saver for talking-head and podcast creators."
 products:
   - name: "Descript"
+    image: "/images/tools/descript.jpg"
+    imageCaption: "Descript homepage (screenshot captured July 2026)."
     award: "Best overall"
     affiliateUrl: ""
     pricingTiers:
@@ -46,6 +48,8 @@ products:
     ratingCount: 512
     reviewBody: "For anyone who talks to camera or records podcasts, Descript is close to essential."
   - name: "VEED"
+    image: "/images/tools/veed.jpg"
+    imageCaption: "VEED homepage (screenshot captured July 2026)."
     award: "Best browser-based editor"
     affiliateUrl: ""
     pricingTiers:
@@ -72,6 +76,8 @@ products:
     ratingCount: 388
     reviewBody: "The most convenient option for subtitles and quick social edits."
   - name: "Filmora"
+    image: "/images/tools/filmora.jpg"
+    imageCaption: "Filmora homepage (screenshot captured July 2026)."
     award: "Best value desktop editor"
     affiliateUrl: ""
     pricingTiers:
@@ -98,6 +104,8 @@ products:
     ratingCount: 640
     reviewBody: "The best value for creators who want a proper timeline editor with AI on the side."
   - name: "Runway"
+    image: "/images/tools/runway.jpg"
+    imageCaption: "Runway homepage (screenshot captured July 2026)."
     award: "Best for generative video"
     affiliateUrl: ""
     pricingTiers:

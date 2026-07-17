@@ -4,8 +4,8 @@ metaTitle: "Best Free & Cheap AI Voice Tools (2026)"
 metaDescription: "The best free and affordable AI voice tools in 2026 — ElevenLabs, Speechify, Podcastle and LOVO compared on free tiers, limits and value."
 category: "AI Voice & Audio Tools"
 categoryLink: "/ai-voice"
-ogImage: "/images/categories/ai-voice.jpg"
-cardImage: "/images/categories/ai-voice.jpg"
+ogImage: "/images/cards/best-free-cheap-ai-voice-tools.jpg"
+cardImage: "/images/cards/best-free-cheap-ai-voice-tools.jpg"
 cardTitle: "Best Free & Cheap AI Voice Tools"
 cardSummary: "Professional AI voices without the professional price — the best free tiers and budget plans for creators."
 publishedLabel: "Updated July 2026"
@@ -17,6 +17,8 @@ quickPick:
   reason: "The best free tier for testing genuinely realistic voices, and its $6 Starter plan is the cheapest route to commercial-quality narration with commercial rights."
 products:
   - name: "ElevenLabs"
+    image: "/images/tools/elevenlabs.jpg"
+    imageCaption: "ElevenLabs homepage (screenshot captured July 2026)."
     award: "Best free realism"
     affiliateUrl: ""
     pricingTiers:
@@ -37,6 +39,8 @@ products:
     ratingCount: 720
     reviewBody: "The best free way to hear top-tier AI voices, with the cheapest upgrade path."
   - name: "Speechify"
+    image: "/images/tools/speechify.jpg"
+    imageCaption: "Speechify homepage (screenshot captured July 2026)."
     award: "Best free for listening"
     affiliateUrl: ""
     pricingTiers:
@@ -57,6 +61,8 @@ products:
     ratingCount: 520
     reviewBody: "The best free tool for listening to text and catching script errors."
   - name: "Podcastle"
+    image: "/images/tools/podcastle.jpg"
+    imageCaption: "Podcastle homepage (screenshot captured July 2026)."
     award: "Best cheap podcast voices"
     affiliateUrl: ""
     pricingTiers:
@@ -77,6 +83,8 @@ products:
     ratingCount: 340
     reviewBody: "A budget-friendly option that pairs voices with recording."
   - name: "LOVO (Genny)"
+    image: "/images/tools/lovo-genny.jpg"
+    imageCaption: "LOVO (Genny) homepage (screenshot captured July 2026)."
     award: "Best free voice variety"
     affiliateUrl: ""
     pricingTiers:

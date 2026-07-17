@@ -4,8 +4,8 @@ metaTitle: "Best AI Design Tools for Social Graphics (2026)"
 metaDescription: "Design on-brand social media graphics fast with AI. Compare Canva, Adobe Express and Recraft on templates, brand kits and price for creators in 2026."
 category: "AI Design & Thumbnail Tools"
 categoryLink: "/ai-design"
-ogImage: "/images/categories/ai-design.jpg"
-cardImage: "/images/categories/ai-design.jpg"
+ogImage: "/images/cards/best-ai-design-tools-social-media-graphics.jpg"
+cardImage: "/images/cards/best-ai-design-tools-social-media-graphics.jpg"
 cardTitle: "Best AI Tools for Social Graphics"
 cardSummary: "On-brand posts, carousels and stories in minutes — the AI design tools built for social media creators."
 publishedLabel: "Updated July 2026"
@@ -17,6 +17,8 @@ quickPick:
   reason: "The most complete social design tool — templates for every platform, Magic tools, brand kits and one-click resizing, all in an editor anyone can use."
 products:
   - name: "Canva"
+    image: "/images/tools/canva.jpg"
+    imageCaption: "Canva homepage (screenshot captured July 2026)."
     award: "Best overall"
     affiliateUrl: ""
     pricingTiers:
@@ -40,6 +42,8 @@ products:
     ratingCount: 910
     reviewBody: "The most practical choice for keeping a social feed on-brand and consistent."
   - name: "Adobe Express"
+    image: "/images/tools/adobe-express.jpg"
+    imageCaption: "Adobe Express homepage (screenshot captured July 2026)."
     award: "Best for premium polish"
     affiliateUrl: ""
     pricingTiers:
@@ -60,6 +64,8 @@ products:
     ratingCount: 430
     reviewBody: "A strong pick when you want Adobe polish in a Canva-style workflow."
   - name: "Recraft"
+    image: "/images/tools/recraft.jpg"
+    imageCaption: "Recraft homepage (screenshot captured July 2026)."
     award: "Best for consistent brand visuals"
     affiliateUrl: ""
     pricingTiers:

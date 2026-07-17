@@ -4,8 +4,8 @@ metaTitle: "Best AI Tools to Turn Long Videos into Shorts (2026)"
 metaDescription: "Turn podcasts, webinars and long videos into viral shorts with AI. Compare OpusClip, Descript and VEED for clipping and repurposing in 2026."
 category: "AI Video Tools"
 categoryLink: "/ai-video"
-ogImage: "/images/categories/ai-video.jpg"
-cardImage: "/images/categories/ai-video.jpg"
+ogImage: "/images/cards/best-ai-tools-repurpose-long-videos-into-shorts.jpg"
+cardImage: "/images/cards/best-ai-tools-repurpose-long-videos-into-shorts.jpg"
 cardTitle: "Best AI Video Repurposing Tools"
 cardSummary: "Feed in one long video and get a batch of ready-to-post shorts — the AI clipping tools worth using in 2026."
 publishedLabel: "Updated July 2026"
@@ -17,6 +17,8 @@ quickPick:
   reason: "Purpose-built for repurposing — it finds your best moments, reframes them vertically and adds animated captions with almost no effort."
 products:
   - name: "OpusClip"
+    image: "/images/tools/opusclip.jpg"
+    imageCaption: "OpusClip homepage (screenshot captured July 2026)."
     award: "Best dedicated clipper"
     affiliateUrl: ""
     pricingTiers:
@@ -43,6 +45,8 @@ products:
     ratingCount: 470
     reviewBody: "If repurposing is your main goal, OpusClip is the tool built for exactly that job."
   - name: "Descript"
+    image: "/images/tools/descript.jpg"
+    imageCaption: "Descript homepage (screenshot captured July 2026)."
     award: "Best for hands-on control"
     affiliateUrl: ""
     pricingTiers:
@@ -69,6 +73,8 @@ products:
     ratingCount: 512
     reviewBody: "The better choice when you want to hand-pick moments rather than trust full automation."
   - name: "VEED"
+    image: "/images/tools/veed.jpg"
+    imageCaption: "VEED homepage (screenshot captured July 2026)."
     award: "Best for finishing clips"
     affiliateUrl: ""
     pricingTiers:

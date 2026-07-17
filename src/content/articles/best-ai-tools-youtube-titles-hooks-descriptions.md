@@ -4,8 +4,8 @@ metaTitle: "Best AI Tools for YouTube Titles & Hooks (2026)"
 metaDescription: "Write scroll-stopping YouTube titles, hooks and descriptions with AI. We compare Jasper, Anyword, Copy.ai and Rytr for creators in 2026."
 category: "AI Writing Tools"
 categoryLink: "/ai-writing"
-ogImage: "/images/categories/ai-writing.jpg"
-cardImage: "/images/categories/ai-writing.jpg"
+ogImage: "/images/cards/best-ai-tools-youtube-titles-hooks-descriptions.jpg"
+cardImage: "/images/cards/best-ai-tools-youtube-titles-hooks-descriptions.jpg"
 cardTitle: "Best AI Tools for Titles & Hooks"
 cardSummary: "The AI tools that help you write click-worthy titles, retention-boosting hooks and SEO-friendly descriptions."
 publishedLabel: "Updated July 2026"
@@ -17,6 +17,8 @@ quickPick:
   reason: "Its predictive performance scores help you choose the title and hook most likely to land, not just the one that sounds good."
 products:
   - name: "Anyword"
+    image: "/images/tools/anyword.jpg"
+    imageCaption: "Anyword homepage (screenshot captured July 2026)."
     award: "Best for data-backed titles"
     affiliateUrl: ""
     pricingTiers:
@@ -40,6 +42,8 @@ products:
     ratingCount: 196
     reviewBody: "The standout when you want your title choice backed by data."
   - name: "Jasper"
+    image: "/images/tools/jasper.jpg"
+    imageCaption: "Jasper homepage (screenshot captured July 2026)."
     award: "Best for on-brand titles"
     affiliateUrl: ""
     pricingTiers:
@@ -60,6 +64,8 @@ products:
     ratingCount: 428
     reviewBody: "Best if you want every title and description to sound unmistakably like your channel."
   - name: "Copy.ai"
+    image: "/images/tools/copy-ai.jpg"
+    imageCaption: "Copy.ai homepage (screenshot captured July 2026)."
     award: "Best for volume of ideas"
     affiliateUrl: ""
     pricingTiers:
@@ -80,6 +86,8 @@ products:
     ratingCount: 312
     reviewBody: "A cheap, fast idea generator to widen your options."
   - name: "Rytr"
+    image: "/images/tools/rytr.jpg"
+    imageCaption: "Rytr homepage (screenshot captured July 2026)."
     award: "Best budget pick"
     affiliateUrl: ""
     pricingTiers:

@@ -4,8 +4,8 @@ metaTitle: "Best AI Logo Makers for Creators (2026)"
 metaDescription: "Design a professional logo with AI. Compare Looka, Canva and Brandmark on quality, brand kits and pricing for creators and small brands in 2026."
 category: "AI Design & Thumbnail Tools"
 categoryLink: "/ai-design"
-ogImage: "/images/categories/ai-design.jpg"
-cardImage: "/images/categories/ai-design.jpg"
+ogImage: "/images/cards/best-ai-logo-makers-creators-brands.jpg"
+cardImage: "/images/cards/best-ai-logo-makers-creators-brands.jpg"
 cardTitle: "Best AI Logo Makers"
 cardSummary: "Get a professional logo and brand kit without hiring a designer — the best AI logo makers compared."
 publishedLabel: "Updated July 2026"
@@ -17,6 +17,8 @@ quickPick:
   reason: "The most professional AI logos with the most complete brand kit — logo, colours, fonts and templates that actually look designed, not generated."
 products:
   - name: "Looka"
+    image: "/images/tools/looka.jpg"
+    imageCaption: "Looka homepage (screenshot captured July 2026)."
     award: "Best overall"
     affiliateUrl: ""
     pricingTiers:
@@ -43,6 +45,8 @@ products:
     ratingCount: 480
     reviewBody: "The most complete option for a professional logo and matching brand assets."
   - name: "Canva"
+    image: "/images/tools/canva.jpg"
+    imageCaption: "Canva homepage (screenshot captured July 2026)."
     award: "Best free option"
     affiliateUrl: ""
     pricingTiers:
@@ -63,6 +67,8 @@ products:
     ratingCount: 620
     reviewBody: "The budget choice if you're happy to design the logo yourself."
   - name: "Brandmark"
+    image: "/images/tools/brandmark.jpg"
+    imageCaption: "Brandmark homepage (screenshot captured July 2026)."
     award: "Best for unique concepts"
     affiliateUrl: ""
     pricingTiers:

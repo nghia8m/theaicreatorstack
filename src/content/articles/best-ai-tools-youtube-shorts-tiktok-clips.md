@@ -4,8 +4,8 @@ metaTitle: "Best AI Tools for YouTube Shorts & TikTok (2026)"
 metaDescription: "Make scroll-stopping YouTube Shorts and TikToks with AI. Compare OpusClip, VEED and InVideo AI for captions, reframing and fast clip creation in 2026."
 category: "AI Video Tools"
 categoryLink: "/ai-video"
-ogImage: "/images/categories/ai-video.jpg"
-cardImage: "/images/categories/ai-video.jpg"
+ogImage: "/images/cards/best-ai-tools-youtube-shorts-tiktok-clips.jpg"
+cardImage: "/images/cards/best-ai-tools-youtube-shorts-tiktok-clips.jpg"
 cardTitle: "Best AI Tools for Shorts & TikTok"
 cardSummary: "Vertical video, animated captions and auto-reframing — the AI tools built for short-form in 2026."
 publishedLabel: "Updated July 2026"
@@ -17,6 +17,8 @@ quickPick:
   reason: "For turning existing videos into a batch of ready-to-post vertical clips with animated captions, nothing is faster."
 products:
   - name: "OpusClip"
+    image: "/images/tools/opusclip.jpg"
+    imageCaption: "OpusClip homepage (screenshot captured July 2026)."
     award: "Best for clipping existing videos"
     affiliateUrl: ""
     pricingTiers:
@@ -40,6 +42,8 @@ products:
     ratingCount: 470
     reviewBody: "The default choice for repurposing long content into shorts."
   - name: "VEED"
+    image: "/images/tools/veed.jpg"
+    imageCaption: "VEED homepage (screenshot captured July 2026)."
     award: "Best for captions and polish"
     affiliateUrl: ""
     pricingTiers:
@@ -63,6 +67,8 @@ products:
     ratingCount: 388
     reviewBody: "The finishing tool that makes shorts look polished and on-brand."
   - name: "InVideo AI"
+    image: "/images/tools/invideo-ai.jpg"
+    imageCaption: "InVideo AI homepage (screenshot captured July 2026)."
     award: "Best for creating from scratch"
     affiliateUrl: ""
     pricingTiers:

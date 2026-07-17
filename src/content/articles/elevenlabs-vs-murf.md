@@ -4,8 +4,8 @@ metaTitle: "ElevenLabs vs Murf (2026): Which Voice Tool Wins?"
 metaDescription: "ElevenLabs vs Murf compared for 2026 — voice realism, cloning, editing controls and pricing. The right AI voice tool for your content."
 category: "AI Voice & Audio Tools"
 categoryLink: "/ai-voice"
-ogImage: "/images/categories/ai-voice.jpg"
-cardImage: "/images/categories/ai-voice.jpg"
+ogImage: "/images/cards/elevenlabs-vs-murf.jpg"
+cardImage: "/images/cards/elevenlabs-vs-murf.jpg"
 cardTitle: "ElevenLabs vs Murf"
 cardSummary: "Raw realism or precise control? The two leading AI voice tools go head-to-head for creators."
 publishedLabel: "Updated July 2026"
@@ -17,6 +17,8 @@ quickPick:
   reason: "For the most lifelike voice and the best cloning, ElevenLabs wins. Choose Murf if fine-grained delivery control and a studio editor matter more to you than raw realism."
 products:
   - name: "ElevenLabs"
+    image: "/images/tools/elevenlabs.jpg"
+    imageCaption: "ElevenLabs homepage (screenshot captured July 2026)."
     award: "Best realism and cloning"
     affiliateUrl: ""
     pricingTiers:
@@ -40,6 +42,8 @@ products:
     ratingCount: 720
     reviewBody: "The winner whenever voice quality and cloning are the priority."
   - name: "Murf AI"
+    image: "/images/tools/murf-ai.jpg"
+    imageCaption: "Murf AI homepage (screenshot captured July 2026)."
     award: "Best editing control"
     affiliateUrl: ""
     pricingTiers:

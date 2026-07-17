@@ -4,8 +4,8 @@ metaTitle: "6 Best AI SEO Tools for Creators (2026)"
 metaDescription: "The best AI SEO tools for creators in 2026 — Surfer SEO, Frase, Semrush and VidIQ compared for content optimization, keywords and rankings."
 category: "AI SEO & Analytics Tools"
 categoryLink: "/ai-seo"
-ogImage: "/images/categories/ai-seo.jpg"
-cardImage: "/images/categories/ai-seo.jpg"
+ogImage: "/images/cards/best-ai-seo-tools-for-content-creators.jpg"
+cardImage: "/images/cards/best-ai-seo-tools-for-content-creators.jpg"
 cardTitle: "Best AI SEO Tools for Creators"
 cardSummary: "Rank higher on Google and YouTube with AI — the SEO tools that turn guesswork into a repeatable process."
 publishedLabel: "Updated July 2026"
@@ -17,6 +17,8 @@ quickPick:
   reason: "The best balance of AI content optimization and ease of use — it tells you exactly how to improve a piece to rank, without an overwhelming enterprise toolset."
 products:
   - name: "Surfer SEO"
+    image: "/images/tools/surfer-seo.jpg"
+    imageCaption: "Surfer SEO homepage (screenshot captured July 2026)."
     award: "Best for content optimization"
     affiliateUrl: ""
     pricingTiers:
@@ -43,6 +45,8 @@ products:
     ratingCount: 560
     reviewBody: "The most practical SEO tool for creators who mainly want their content to rank."
   - name: "Frase"
+    image: "/images/tools/frase.jpg"
+    imageCaption: "Frase homepage (screenshot captured July 2026)."
     award: "Best value for content SEO"
     affiliateUrl: ""
     pricingTiers:
@@ -69,6 +73,8 @@ products:
     ratingCount: 380
     reviewBody: "The value pick for research-driven content planning and drafting."
   - name: "Semrush"
+    image: "/images/tools/semrush.jpg"
+    imageCaption: "Semrush homepage (screenshot captured July 2026)."
     award: "Best all-in-one suite"
     affiliateUrl: ""
     pricingTiers:
@@ -92,6 +98,8 @@ products:
     ratingCount: 720
     reviewBody: "The powerhouse for creators ready to invest in serious, all-round SEO."
   - name: "VidIQ"
+    image: "/images/tools/vidiq.jpg"
+    imageCaption: "VidIQ homepage (screenshot captured July 2026)."
     award: "Best for YouTube SEO"
     affiliateUrl: ""
     pricingTiers:

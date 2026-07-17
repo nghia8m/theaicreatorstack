@@ -173,6 +173,29 @@ if ((d.faqs ?? []).length) {
           </table>
         </div>
 
+        <!-- At-a-glance rating chart (C3) -->
+        {d.products.filter((p) => p.ratingValue).length >= 2 && (
+          <figure class="rating-chart">
+            <figcaption>Our ratings at a glance</figcaption>
+            {d.products
+              .filter((p) => p.ratingValue)
+              .slice()
+              .sort((a, b) => (b.ratingValue ?? 0) - (a.ratingValue ?? 0))
+              .map((p) => (
+                <div class="rating-row">
+                  <a class="rating-name" href={`#${slugify(p.name)}`}>{p.name}</a>
+                  <div class="rating-track" role="img" aria-label={`${p.name} rated ${p.ratingValue} out of 5`}>
+                    <div class="rating-fill" style={`width:${((p.ratingValue ?? 0) / 5) * 100}%`}>
+                      <span class="rating-val">{p.ratingValue.toFixed(1)}</span>
+                    </div>
+                  </div>
+                  <span class="rating-cost">{startingPrice(p)}</span>
+                </div>
+              ))}
+            <p class="rating-scale">Editorial rating out of 5 · price = cheapest paid entry point</p>
+          </figure>
+        )}
+
         <p class="price-note">{d.priceNote}</p>
 
         <!-- TOC -->

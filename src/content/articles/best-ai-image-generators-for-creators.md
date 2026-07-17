@@ -4,8 +4,8 @@ metaTitle: "Best AI Image Generators for Creators (2026)"
 metaDescription: "The best AI image generators for creators in 2026 — Midjourney, Leonardo, Ideogram and Adobe Firefly compared on quality, control and price."
 category: "AI Design & Thumbnail Tools"
 categoryLink: "/ai-design"
-ogImage: "/images/categories/ai-design.jpg"
-cardImage: "/images/categories/ai-design.jpg"
+ogImage: "/images/cards/best-ai-image-generators-for-creators.jpg"
+cardImage: "/images/cards/best-ai-image-generators-for-creators.jpg"
 cardTitle: "Best AI Image Generators"
 cardSummary: "From photorealism to text-in-image, the AI image generators creators actually use — compared honestly."
 publishedLabel: "Updated July 2026"
@@ -17,6 +17,8 @@ quickPick:
   reason: "The best balance of image quality, fine control and a genuinely useful free plan — ideal for creators who want power without Midjourney's rigidity."
 products:
   - name: "Leonardo.ai"
+    image: "/images/tools/leonardo-ai.jpg"
+    imageCaption: "Leonardo.ai homepage (screenshot captured July 2026)."
     award: "Best for creators"
     affiliateUrl: ""
     pricingTiers:
@@ -43,6 +45,8 @@ products:
     ratingCount: 540
     reviewBody: "Our top pick for creators who want quality images with real control."
   - name: "Midjourney"
+    image: "/images/tools/midjourney.jpg"
+    imageCaption: "Midjourney homepage (screenshot captured July 2026)."
     award: "Best raw image quality"
     affiliateUrl: ""
     pricingTiers:
@@ -69,6 +73,8 @@ products:
     ratingCount: 880
     reviewBody: "Unbeatable for raw beauty, though creators should know it offers no affiliate program if that matters to your monetisation."
   - name: "Ideogram"
+    image: "/images/tools/ideogram.jpg"
+    imageCaption: "Ideogram homepage (screenshot captured July 2026)."
     award: "Best for text in images"
     affiliateUrl: ""
     pricingTiers:
@@ -95,6 +101,8 @@ products:
     ratingCount: 350
     reviewBody: "The specialist to reach for whenever your image needs real, readable text."
   - name: "Adobe Firefly"
+    image: "/images/tools/adobe-firefly.jpg"
+    imageCaption: "Adobe Firefly homepage (screenshot captured July 2026)."
     award: "Best for commercial safety"
     affiliateUrl: ""
     pricingTiers:

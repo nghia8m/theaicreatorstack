@@ -4,8 +4,8 @@ metaTitle: "Canva vs Adobe Express (2026): Which Wins?"
 metaDescription: "Canva vs Adobe Express compared for 2026 — templates, AI features, brand tools and pricing. The right design tool for content creators."
 category: "AI Design & Thumbnail Tools"
 categoryLink: "/ai-design"
-ogImage: "/images/categories/ai-design.jpg"
-cardImage: "/images/categories/ai-design.jpg"
+ogImage: "/images/cards/canva-vs-adobe-express.jpg"
+cardImage: "/images/cards/canva-vs-adobe-express.jpg"
 cardTitle: "Canva vs Adobe Express"
 cardSummary: "The two biggest browser design tools go head-to-head on templates, AI and value for creators."
 publishedLabel: "Updated July 2026"
@@ -17,6 +17,8 @@ quickPick:
   reason: "For most creators, Canva's larger template library and gentler learning curve win. Choose Adobe Express if you value Firefly's commercially safe AI and Adobe's premium assets."
 products:
   - name: "Canva"
+    image: "/images/tools/canva.jpg"
+    imageCaption: "Canva homepage (screenshot captured July 2026)."
     award: "Best for ease and templates"
     affiliateUrl: ""
     pricingTiers:
@@ -40,6 +42,8 @@ products:
     ratingCount: 910
     reviewBody: "The better default for speed, ease and template variety."
   - name: "Adobe Express"
+    image: "/images/tools/adobe-express.jpg"
+    imageCaption: "Adobe Express homepage (screenshot captured July 2026)."
     award: "Best AI and assets"
     affiliateUrl: ""
     pricingTiers:

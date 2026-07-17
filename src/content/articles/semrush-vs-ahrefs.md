@@ -4,8 +4,8 @@ metaTitle: "Semrush vs Ahrefs (2026): Which SEO Suite Wins?"
 metaDescription: "Semrush vs Ahrefs compared for 2026 — keyword data, backlinks, features and pricing. The right all-in-one SEO suite for creators and bloggers."
 category: "AI SEO & Analytics Tools"
 categoryLink: "/ai-seo"
-ogImage: "/images/categories/ai-seo.jpg"
-cardImage: "/images/categories/ai-seo.jpg"
+ogImage: "/images/cards/semrush-vs-ahrefs.jpg"
+cardImage: "/images/cards/semrush-vs-ahrefs.jpg"
 cardTitle: "Semrush vs Ahrefs"
 cardSummary: "The two heavyweight SEO suites go head-to-head on data, features and price for serious creators."
 publishedLabel: "Updated July 2026"
@@ -17,6 +17,8 @@ quickPick:
   reason: "For creators focused on content and backlinks, Ahrefs' data accuracy and new affordable Starter tier make it the better-value entry. Choose Semrush if you want the widest all-in-one marketing toolset."
 products:
   - name: "Ahrefs"
+    image: "/images/tools/ahrefs.jpg"
+    imageCaption: "Ahrefs homepage (screenshot captured July 2026)."
     award: "Best for data accuracy & value"
     affiliateUrl: ""
     pricingTiers:
@@ -43,6 +45,8 @@ products:
     ratingCount: 680
     reviewBody: "The better-value, more focused choice for creators centred on content and backlinks."
   - name: "Semrush"
+    image: "/images/tools/semrush.jpg"
+    imageCaption: "Semrush homepage (screenshot captured July 2026)."
     award: "Best all-in-one toolset"
     affiliateUrl: ""
     pricingTiers:

@@ -4,8 +4,8 @@ metaTitle: "Make YouTube Thumbnails Fast with AI (2026)"
 metaDescription: "Create high-CTR YouTube thumbnails in minutes with AI. Compare Canva, Leonardo and Ideogram for fast thumbnail generation in 2026."
 category: "AI Design & Thumbnail Tools"
 categoryLink: "/ai-design"
-ogImage: "/images/categories/ai-design.jpg"
-cardImage: "/images/categories/ai-design.jpg"
+ogImage: "/images/cards/best-ai-tools-youtube-thumbnails-fast.jpg"
+cardImage: "/images/cards/best-ai-tools-youtube-thumbnails-fast.jpg"
 cardTitle: "Make Thumbnails Fast with AI"
 cardSummary: "Speed up your thumbnail workflow — the AI tools that turn a blank canvas into a clickable thumbnail in minutes."
 publishedLabel: "Updated July 2026"
@@ -17,6 +17,8 @@ quickPick:
   reason: "The quickest end-to-end workflow: start from a template, drop in an AI background, remove your photo's background, add text, export — all in one place."
 products:
   - name: "Canva"
+    image: "/images/tools/canva.jpg"
+    imageCaption: "Canva homepage (screenshot captured July 2026)."
     award: "Fastest full workflow"
     affiliateUrl: ""
     pricingTiers:
@@ -37,6 +39,8 @@ products:
     ratingCount: 910
     reviewBody: "The quickest way to go from idea to finished, uploaded thumbnail."
   - name: "Leonardo.ai"
+    image: "/images/tools/leonardo-ai.jpg"
+    imageCaption: "Leonardo.ai homepage (screenshot captured July 2026)."
     award: "Best for custom backgrounds"
     affiliateUrl: ""
     pricingTiers:
@@ -57,6 +61,8 @@ products:
     ratingCount: 540
     reviewBody: "The best source of custom thumbnail backgrounds that don't look like stock."
   - name: "Ideogram"
+    image: "/images/tools/ideogram.jpg"
+    imageCaption: "Ideogram homepage (screenshot captured July 2026)."
     award: "Best for text-heavy thumbnails"
     affiliateUrl: ""
     pricingTiers:

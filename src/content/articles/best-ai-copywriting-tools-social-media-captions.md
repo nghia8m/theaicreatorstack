@@ -4,8 +4,8 @@ metaTitle: "Best AI Copywriting Tools for Captions (2026)"
 metaDescription: "Batch a month of scroll-stopping social captions with AI. We compare Copy.ai, Anyword, Jasper and Rytr for creators in 2026."
 category: "AI Writing Tools"
 categoryLink: "/ai-writing"
-ogImage: "/images/categories/ai-writing.jpg"
-cardImage: "/images/categories/ai-writing.jpg"
+ogImage: "/images/cards/best-ai-copywriting-tools-social-media-captions.jpg"
+cardImage: "/images/cards/best-ai-copywriting-tools-social-media-captions.jpg"
 cardTitle: "Best AI Tools for Social Captions"
 cardSummary: "Write better Instagram, TikTok and LinkedIn captions in bulk with the AI copywriting tools built for social."
 publishedLabel: "Updated July 2026"
@@ -17,6 +17,8 @@ quickPick:
   reason: "Its template library and free plan make batching short social captions faster and cheaper than anything else here."
 products:
   - name: "Copy.ai"
+    image: "/images/tools/copy-ai.jpg"
+    imageCaption: "Copy.ai homepage (screenshot captured July 2026)."
     award: "Best for batching captions"
     affiliateUrl: ""
     pricingTiers:
@@ -37,6 +39,8 @@ products:
     ratingCount: 312
     reviewBody: "The most efficient option for cranking out social captions in volume."
   - name: "Anyword"
+    image: "/images/tools/anyword.jpg"
+    imageCaption: "Anyword homepage (screenshot captured July 2026)."
     award: "Best for engagement data"
     affiliateUrl: ""
     pricingTiers:
@@ -57,6 +61,8 @@ products:
     ratingCount: 196
     reviewBody: "Worth it when your captions have a job to do beyond likes."
   - name: "Jasper"
+    image: "/images/tools/jasper.jpg"
+    imageCaption: "Jasper homepage (screenshot captured July 2026)."
     award: "Best for brand consistency"
     affiliateUrl: ""
     pricingTiers:
@@ -77,6 +83,8 @@ products:
     ratingCount: 428
     reviewBody: "The pick for creators who treat their voice as part of the brand."
   - name: "Rytr"
+    image: "/images/tools/rytr.jpg"
+    imageCaption: "Rytr homepage (screenshot captured July 2026)."
     award: "Best budget option"
     affiliateUrl: ""
     pricingTiers:

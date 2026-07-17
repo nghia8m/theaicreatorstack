@@ -4,8 +4,8 @@ metaTitle: "Descript vs VEED (2026): Which Video Editor Wins?"
 metaDescription: "Descript vs VEED compared for 2026 — text-based editing versus browser-based speed. Pricing, features and the right pick for your workflow."
 category: "AI Video Tools"
 categoryLink: "/ai-video"
-ogImage: "/images/categories/ai-video.jpg"
-cardImage: "/images/categories/ai-video.jpg"
+ogImage: "/images/cards/descript-vs-veed.jpg"
+cardImage: "/images/cards/descript-vs-veed.jpg"
 cardTitle: "Descript vs VEED"
 cardSummary: "Text-based editing or browser-based speed? A head-to-head for creators choosing an AI video editor."
 publishedLabel: "Updated July 2026"
@@ -17,6 +17,8 @@ quickPick:
   reason: "For talking-head, interview and podcast content, Descript's transcript-based editing is the bigger time-saver. Pick VEED if subtitles and quick social clips are your main need."
 products:
   - name: "Descript"
+    image: "/images/tools/descript.jpg"
+    imageCaption: "Descript homepage (screenshot captured July 2026)."
     award: "Best for spoken-word editing"
     affiliateUrl: ""
     pricingTiers:
@@ -40,6 +42,8 @@ products:
     ratingCount: 512
     reviewBody: "The clear winner for anyone editing a lot of talking-to-camera footage."
   - name: "VEED"
+    image: "/images/tools/veed.jpg"
+    imageCaption: "VEED homepage (screenshot captured July 2026)."
     award: "Best for subtitles and social clips"
     affiliateUrl: ""
     pricingTiers:

@@ -4,8 +4,8 @@ metaTitle: "6 Best AI Blog Writing Tools for Bloggers (2026)"
 metaDescription: "The best AI tools for writing blog posts in 2026, compared for bloggers who care about SEO, speed and quality — Jasper, Writesonic, Rytr and Notion AI."
 category: "AI Writing Tools"
 categoryLink: "/ai-writing"
-ogImage: "/images/categories/ai-writing.jpg"
-cardImage: "/images/categories/ai-writing.jpg"
+ogImage: "/images/cards/best-ai-blog-writing-tools-for-bloggers.jpg"
+cardImage: "/images/cards/best-ai-blog-writing-tools-for-bloggers.jpg"
 cardTitle: "Best AI Blog Writing Tools"
 cardSummary: "AI tools that help bloggers go from outline to publish-ready draft — ranked for long-form quality, SEO features and value."
 publishedLabel: "Updated July 2026"
@@ -17,6 +17,8 @@ quickPick:
   reason: "The most reliable long-form drafts with the least editing — ideal if blogging is a serious, recurring part of your business."
 products:
   - name: "Jasper"
+    image: "/images/tools/jasper.jpg"
+    imageCaption: "Jasper homepage (screenshot captured July 2026)."
     award: "Best for long-form quality"
     affiliateUrl: ""
     pricingTiers:
@@ -40,6 +42,8 @@ products:
     ratingCount: 428
     reviewBody: "For bloggers who publish regularly, Jasper's quality justifies the cost."
   - name: "Writesonic"
+    image: "/images/tools/writesonic.jpg"
+    imageCaption: "Writesonic homepage (screenshot captured July 2026)."
     award: "Best for SEO articles"
     affiliateUrl: ""
     pricingTiers:
@@ -66,6 +70,8 @@ products:
     ratingCount: 274
     reviewBody: "A strong fit if search traffic is your main objective and you'll use the SEO features."
   - name: "Rytr"
+    image: "/images/tools/rytr.jpg"
+    imageCaption: "Rytr homepage (screenshot captured July 2026)."
     award: "Best budget option"
     affiliateUrl: ""
     pricingTiers:
@@ -92,6 +98,8 @@ products:
     ratingCount: 540
     reviewBody: "The right pick when budget matters more than polish."
   - name: "Notion AI"
+    image: "/images/tools/notion-ai.jpg"
+    imageCaption: "Notion AI homepage (screenshot captured July 2026)."
     award: "Best if you already use Notion"
     affiliateUrl: ""
     pricingTiers:

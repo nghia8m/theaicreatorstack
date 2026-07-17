@@ -4,8 +4,8 @@ metaTitle: "Best AI Content Optimization Tools (2026)"
 metaDescription: "Optimize your blog posts to rank with AI. Compare Surfer SEO, Frase and Semrush on content scoring, briefs and pricing for bloggers in 2026."
 category: "AI SEO & Analytics Tools"
 categoryLink: "/ai-seo"
-ogImage: "/images/categories/ai-seo.jpg"
-cardImage: "/images/categories/ai-seo.jpg"
+ogImage: "/images/cards/best-ai-content-optimization-tools-bloggers.jpg"
+cardImage: "/images/cards/best-ai-content-optimization-tools-bloggers.jpg"
 cardTitle: "Best Content Optimization Tools"
 cardSummary: "Score, structure and optimize your posts to outrank the competition — the best AI content optimization tools."
 publishedLabel: "Updated July 2026"
@@ -17,6 +17,8 @@ quickPick:
   reason: "The clearest, most actionable optimization guidance — a real-time score and a checklist that tells you precisely how to improve a post to rank."
 products:
   - name: "Surfer SEO"
+    image: "/images/tools/surfer-seo.jpg"
+    imageCaption: "Surfer SEO homepage (screenshot captured July 2026)."
     award: "Best optimization editor"
     affiliateUrl: ""
     pricingTiers:
@@ -40,6 +42,8 @@ products:
     ratingCount: 560
     reviewBody: "The most practical tool for optimizing a post to rank, page by page."
   - name: "Frase"
+    image: "/images/tools/frase.jpg"
+    imageCaption: "Frase homepage (screenshot captured July 2026)."
     award: "Best for briefs and research"
     affiliateUrl: ""
     pricingTiers:
@@ -63,6 +67,8 @@ products:
     ratingCount: 380
     reviewBody: "The value pick for planning well-structured, comprehensive posts."
   - name: "Semrush"
+    image: "/images/tools/semrush.jpg"
+    imageCaption: "Semrush homepage (screenshot captured July 2026)."
     award: "Best all-in-one"
     affiliateUrl: ""
     pricingTiers:

@@ -4,8 +4,8 @@ metaTitle: "Best AI Podcast Editing & Cleanup Tools (2026)"
 metaDescription: "Clean up and edit your podcast with AI. Compare Descript, Podcastle and Adobe Podcast on audio enhancement, editing and price for 2026."
 category: "AI Voice & Audio Tools"
 categoryLink: "/ai-voice"
-ogImage: "/images/categories/ai-voice.jpg"
-cardImage: "/images/categories/ai-voice.jpg"
+ogImage: "/images/cards/best-ai-tools-podcast-editing-cleanup.jpg"
+cardImage: "/images/cards/best-ai-tools-podcast-editing-cleanup.jpg"
 cardTitle: "Best AI Podcast Editing Tools"
 cardSummary: "Remove noise, cut filler and edit by text — the AI tools that make podcast production painless."
 publishedLabel: "Updated July 2026"
@@ -17,6 +17,8 @@ quickPick:
   reason: "Editing audio by editing a transcript, plus one-click filler removal and Studio Sound cleanup, makes it the fastest full podcast editor for creators."
 products:
   - name: "Descript"
+    image: "/images/tools/descript.jpg"
+    imageCaption: "Descript homepage (screenshot captured July 2026)."
     award: "Best all-in-one editor"
     affiliateUrl: ""
     pricingTiers:
@@ -40,6 +42,8 @@ products:
     ratingCount: 512
     reviewBody: "The most complete podcast editor for creators who want speed and simplicity."
   - name: "Podcastle"
+    image: "/images/tools/podcastle.jpg"
+    imageCaption: "Podcastle homepage (screenshot captured July 2026)."
     award: "Best purpose-built podcast studio"
     affiliateUrl: ""
     pricingTiers:
@@ -63,6 +67,8 @@ products:
     ratingCount: 340
     reviewBody: "A great focused studio for podcasters who want recording and editing together."
   - name: "Adobe Podcast"
+    image: "/images/tools/adobe-podcast.jpg"
+    imageCaption: "Adobe Podcast homepage (screenshot captured July 2026)."
     award: "Best free cleanup"
     affiliateUrl: ""
     pricingTiers:

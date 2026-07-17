@@ -4,8 +4,8 @@ metaTitle: "Best Free AI Image & Design Tools (2026)"
 metaDescription: "The best free AI image generators and design tools in 2026 — Canva, Leonardo, Ideogram and Adobe Firefly compared on free limits and value."
 category: "AI Design & Thumbnail Tools"
 categoryLink: "/ai-design"
-ogImage: "/images/categories/ai-design.jpg"
-cardImage: "/images/categories/ai-design.jpg"
+ogImage: "/images/cards/best-free-ai-image-design-tools.jpg"
+cardImage: "/images/cards/best-free-ai-image-design-tools.jpg"
 cardTitle: "Best Free AI Design Tools"
 cardSummary: "Create images and graphics without spending a cent — the best free AI design tools and what their limits really allow."
 publishedLabel: "Updated July 2026"
@@ -17,6 +17,8 @@ quickPick:
   reason: "The most capable free design tool by far — thousands of templates, a real editor and basic AI, all free and enough for most creators to never pay."
 products:
   - name: "Canva"
+    image: "/images/tools/canva.jpg"
+    imageCaption: "Canva homepage (screenshot captured July 2026)."
     award: "Best free all-rounder"
     affiliateUrl: ""
     pricingTiers:
@@ -37,6 +39,8 @@ products:
     ratingCount: 910
     reviewBody: "The single most useful free design tool for creators."
   - name: "Leonardo.ai"
+    image: "/images/tools/leonardo-ai.jpg"
+    imageCaption: "Leonardo.ai homepage (screenshot captured July 2026)."
     award: "Best free image generation"
     affiliateUrl: ""
     pricingTiers:
@@ -57,6 +61,8 @@ products:
     ratingCount: 540
     reviewBody: "The best free way to generate quality images regularly."
   - name: "Ideogram"
+    image: "/images/tools/ideogram.jpg"
+    imageCaption: "Ideogram homepage (screenshot captured July 2026)."
     award: "Best free for text-in-image"
     affiliateUrl: ""
     pricingTiers:
@@ -77,6 +83,8 @@ products:
     ratingCount: 350
     reviewBody: "The best free generator for graphics that need real text."
   - name: "Adobe Firefly"
+    image: "/images/tools/adobe-firefly.jpg"
+    imageCaption: "Adobe Firefly homepage (screenshot captured July 2026)."
     award: "Best free commercially safe AI"
     affiliateUrl: ""
     pricingTiers:

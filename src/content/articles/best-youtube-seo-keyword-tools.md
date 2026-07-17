@@ -4,8 +4,8 @@ metaTitle: "Best YouTube SEO & Keyword Tools (2026)"
 metaDescription: "Rank your videos with the best YouTube SEO and keyword tools of 2026 — VidIQ, TubeBuddy and Keywords Everywhere compared for creators."
 category: "AI SEO & Analytics Tools"
 categoryLink: "/ai-seo"
-ogImage: "/images/categories/ai-seo.jpg"
-cardImage: "/images/categories/ai-seo.jpg"
+ogImage: "/images/cards/best-youtube-seo-keyword-tools.jpg"
+cardImage: "/images/cards/best-youtube-seo-keyword-tools.jpg"
 cardTitle: "Best YouTube SEO Tools"
 cardSummary: "Find the keywords and tags that get your videos discovered — the best YouTube SEO tools for creators."
 publishedLabel: "Updated July 2026"
@@ -17,6 +17,8 @@ quickPick:
   reason: "The most complete YouTube SEO toolkit, with strong keyword scores, an AI coach and a browser extension that surfaces data right where you work."
 products:
   - name: "VidIQ"
+    image: "/images/tools/vidiq.jpg"
+    imageCaption: "VidIQ homepage (screenshot captured July 2026)."
     award: "Best overall"
     affiliateUrl: ""
     pricingTiers:
@@ -43,6 +45,8 @@ products:
     ratingCount: 640
     reviewBody: "The most complete YouTube SEO tool for creators serious about search."
   - name: "TubeBuddy"
+    image: "/images/tools/tubebuddy.jpg"
+    imageCaption: "TubeBuddy homepage (screenshot captured July 2026)."
     award: "Best for channel management"
     affiliateUrl: ""
     pricingTiers:
@@ -69,6 +73,8 @@ products:
     ratingCount: 590
     reviewBody: "The better choice if channel management matters as much as pure SEO."
   - name: "Keywords Everywhere"
+    image: "/images/tools/keywords-everywhere.jpg"
+    imageCaption: "Keywords Everywhere homepage (screenshot captured July 2026)."
     award: "Best lightweight add-on"
     affiliateUrl: ""
     pricingTiers:

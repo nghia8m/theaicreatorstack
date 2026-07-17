@@ -4,8 +4,8 @@ metaTitle: "Best Text-to-Speech Tools for Creators (2026)"
 metaDescription: "The best text-to-speech tools for creators in 2026 — Murf, Play.ht, Speechify and LOVO compared on voices, realism and pricing."
 category: "AI Voice & Audio Tools"
 categoryLink: "/ai-voice"
-ogImage: "/images/categories/ai-voice.jpg"
-cardImage: "/images/categories/ai-voice.jpg"
+ogImage: "/images/cards/best-text-to-speech-tools-for-creators.jpg"
+cardImage: "/images/cards/best-text-to-speech-tools-for-creators.jpg"
 cardTitle: "Best Text-to-Speech Tools"
 cardSummary: "Turn any script into natural speech. The best TTS tools for narration, accessibility and productivity."
 publishedLabel: "Updated July 2026"
@@ -17,6 +17,8 @@ quickPick:
   reason: "The best balance of natural voices and production controls for creators turning scripts into polished narration."
 products:
   - name: "Murf AI"
+    image: "/images/tools/murf-ai.jpg"
+    imageCaption: "Murf AI homepage (screenshot captured July 2026)."
     award: "Best for production TTS"
     affiliateUrl: ""
     pricingTiers:
@@ -63,6 +65,8 @@ products:
     ratingCount: 360
     reviewBody: "The value choice for high-volume, long-form narration."
   - name: "Speechify"
+    image: "/images/tools/speechify.jpg"
+    imageCaption: "Speechify homepage (screenshot captured July 2026)."
     award: "Best for listening and productivity"
     affiliateUrl: ""
     pricingTiers:
@@ -83,6 +87,8 @@ products:
     ratingCount: 520
     reviewBody: "The best TTS tool for listening, research and catching script errors by ear."
   - name: "LOVO (Genny)"
+    image: "/images/tools/lovo-genny.jpg"
+    imageCaption: "LOVO (Genny) homepage (screenshot captured July 2026)."
     award: "Best voice variety"
     affiliateUrl: ""
     pricingTiers:

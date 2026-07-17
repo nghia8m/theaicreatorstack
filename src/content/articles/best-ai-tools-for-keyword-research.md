@@ -4,8 +4,8 @@ metaTitle: "Best AI Tools for Keyword Research (2026)"
 metaDescription: "Find keywords that actually rank with AI. Compare Semrush, Ahrefs and Surfer SEO on data, ease of use and pricing for creators and bloggers in 2026."
 category: "AI SEO & Analytics Tools"
 categoryLink: "/ai-seo"
-ogImage: "/images/categories/ai-seo.jpg"
-cardImage: "/images/categories/ai-seo.jpg"
+ogImage: "/images/cards/best-ai-tools-for-keyword-research.jpg"
+cardImage: "/images/cards/best-ai-tools-for-keyword-research.jpg"
 cardTitle: "Best AI Keyword Research Tools"
 cardSummary: "Uncover the searches your audience is actually making — the best AI keyword research tools compared."
 publishedLabel: "Updated July 2026"
@@ -17,6 +17,8 @@ quickPick:
   reason: "The deepest keyword database with the best intent and difficulty data — the most complete keyword research tool for creators serious about SEO."
 products:
   - name: "Semrush"
+    image: "/images/tools/semrush.jpg"
+    imageCaption: "Semrush homepage (screenshot captured July 2026)."
     award: "Best data depth"
     affiliateUrl: ""
     pricingTiers:
@@ -40,6 +42,8 @@ products:
     ratingCount: 720
     reviewBody: "The most complete keyword research tool if you can justify the price."
   - name: "Ahrefs"
+    image: "/images/tools/ahrefs.jpg"
+    imageCaption: "Ahrefs homepage (screenshot captured July 2026)."
     award: "Best for search intent"
     affiliateUrl: ""
     pricingTiers:
@@ -66,6 +70,8 @@ products:
     ratingCount: 680
     reviewBody: "The pick when data accuracy and search-intent clarity matter most."
   - name: "Surfer SEO"
+    image: "/images/tools/surfer-seo.jpg"
+    imageCaption: "Surfer SEO homepage (screenshot captured July 2026)."
     award: "Best for creators"
     affiliateUrl: ""
     pricingTiers:

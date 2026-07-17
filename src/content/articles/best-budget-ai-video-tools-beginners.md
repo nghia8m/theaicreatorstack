@@ -4,8 +4,8 @@ metaTitle: "Best Budget AI Video Tools for Beginners (2026)"
 metaDescription: "Start editing video with AI on a budget. Compare Filmora, VEED, Pictory and OpusClip on price, ease of use and free plans for beginners in 2026."
 category: "AI Video Tools"
 categoryLink: "/ai-video"
-ogImage: "/images/categories/ai-video.jpg"
-cardImage: "/images/categories/ai-video.jpg"
+ogImage: "/images/cards/best-budget-ai-video-tools-beginners.jpg"
+cardImage: "/images/cards/best-budget-ai-video-tools-beginners.jpg"
 cardTitle: "Best Budget AI Video Tools"
 cardSummary: "Affordable, beginner-friendly AI video tools that won't overwhelm you — or your wallet."
 publishedLabel: "Updated July 2026"
@@ -17,6 +17,8 @@ quickPick:
   reason: "The best value for a full editor: a low annual price (or one-time purchase), an approachable interface, and AI features baked in as you grow."
 products:
   - name: "Filmora"
+    image: "/images/tools/filmora.jpg"
+    imageCaption: "Filmora homepage (screenshot captured July 2026)."
     award: "Best value editor"
     affiliateUrl: ""
     pricingTiers:
@@ -40,6 +42,8 @@ products:
     ratingCount: 640
     reviewBody: "The best first editor for creators who want to actually learn editing without overspending."
   - name: "VEED"
+    image: "/images/tools/veed.jpg"
+    imageCaption: "VEED homepage (screenshot captured July 2026)."
     award: "Best free starting point"
     affiliateUrl: ""
     pricingTiers:
@@ -60,6 +64,8 @@ products:
     ratingCount: 388
     reviewBody: "The easiest zero-cost way to start editing and captioning clips."
   - name: "Pictory"
+    image: "/images/tools/pictory.jpg"
+    imageCaption: "Pictory homepage (screenshot captured July 2026)."
     award: "Best for text-to-video beginners"
     affiliateUrl: ""
     pricingTiers:
@@ -80,6 +86,8 @@ products:
     ratingCount: 410
     reviewBody: "The most approachable option for beginners who'd rather not touch a timeline."
   - name: "OpusClip"
+    image: "/images/tools/opusclip.jpg"
+    imageCaption: "OpusClip homepage (screenshot captured July 2026)."
     award: "Best free clipper"
     affiliateUrl: ""
     pricingTiers:

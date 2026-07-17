@@ -4,8 +4,8 @@ metaTitle: "Surfer SEO vs Frase (2026): Which Wins?"
 metaDescription: "Surfer SEO vs Frase compared for 2026 — content optimization, briefs, AI writing and pricing. The right on-page SEO tool for creators and bloggers."
 category: "AI SEO & Analytics Tools"
 categoryLink: "/ai-seo"
-ogImage: "/images/categories/ai-seo.jpg"
-cardImage: "/images/categories/ai-seo.jpg"
+ogImage: "/images/cards/surfer-seo-vs-frase.jpg"
+cardImage: "/images/cards/surfer-seo-vs-frase.jpg"
 cardTitle: "Surfer SEO vs Frase"
 cardSummary: "Real-time optimization or research-driven briefs? The two top content SEO tools compared."
 publishedLabel: "Updated July 2026"
@@ -17,6 +17,8 @@ quickPick:
   reason: "For hands-on, real-time optimization with the clearest guidance, Surfer wins. Choose Frase if you want stronger upfront research and briefs at a lower entry price."
 products:
   - name: "Surfer SEO"
+    image: "/images/tools/surfer-seo.jpg"
+    imageCaption: "Surfer SEO homepage (screenshot captured July 2026)."
     award: "Best for optimization"
     affiliateUrl: ""
     pricingTiers:
@@ -37,6 +39,8 @@ products:
     ratingCount: 560
     reviewBody: "The better tool for hands-on, real-time content optimization."
   - name: "Frase"
+    image: "/images/tools/frase.jpg"
+    imageCaption: "Frase homepage (screenshot captured July 2026)."
     award: "Best for research and value"
     affiliateUrl: ""
     pricingTiers:

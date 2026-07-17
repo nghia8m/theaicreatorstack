@@ -4,8 +4,8 @@ metaTitle: "Best AI Voiceover Tools for YouTube (2026)"
 metaDescription: "Add professional voiceovers to your YouTube videos with AI. Compare ElevenLabs, Murf and Play.ht on realism, commercial rights and price for 2026."
 category: "AI Voice & Audio Tools"
 categoryLink: "/ai-voice"
-ogImage: "/images/categories/ai-voice.jpg"
-cardImage: "/images/categories/ai-voice.jpg"
+ogImage: "/images/cards/best-ai-voiceover-tools-youtube.jpg"
+cardImage: "/images/cards/best-ai-voiceover-tools-youtube.jpg"
 cardTitle: "Best AI Voiceover Tools for YouTube"
 cardSummary: "Narrate your videos without a mic. The AI voiceover tools that sound professional enough for YouTube."
 publishedLabel: "Updated July 2026"
@@ -17,6 +17,8 @@ quickPick:
   reason: "The most natural narration for YouTube, with emotion and pacing that hold up over long videos — plus commercial rights from the affordable Starter plan."
 products:
   - name: "ElevenLabs"
+    image: "/images/tools/elevenlabs.jpg"
+    imageCaption: "ElevenLabs homepage (screenshot captured July 2026)."
     award: "Best overall for YouTube"
     affiliateUrl: ""
     pricingTiers:
@@ -40,6 +42,8 @@ products:
     ratingCount: 720
     reviewBody: "The narration quality that best survives a ten-minute video."
   - name: "Murf AI"
+    image: "/images/tools/murf-ai.jpg"
+    imageCaption: "Murf AI homepage (screenshot captured July 2026)."
     award: "Best for controlled delivery"
     affiliateUrl: ""
     pricingTiers:

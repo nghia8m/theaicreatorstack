@@ -4,8 +4,8 @@ metaTitle: "Best AI Music Generators for Creators (2026)"
 metaDescription: "Create royalty-free background music with AI. Compare Suno, Udio, Soundraw and Mubert for creators in 2026 on quality, licensing and price."
 category: "AI Voice & Audio Tools"
 categoryLink: "/ai-voice"
-ogImage: "/images/categories/ai-voice.jpg"
-cardImage: "/images/categories/ai-voice.jpg"
+ogImage: "/images/cards/best-ai-music-generators-for-creators.jpg"
+cardImage: "/images/cards/best-ai-music-generators-for-creators.jpg"
 cardTitle: "Best AI Music Generators"
 cardSummary: "Royalty-free background tracks and full songs from a prompt — the best AI music generators for creators."
 publishedLabel: "Updated July 2026"
@@ -17,6 +17,8 @@ quickPick:
   reason: "Built specifically for creators — unlimited royalty-free background music with clear commercial rights for videos, podcasts and ads, without the licensing worries of full song generators."
 products:
   - name: "Soundraw"
+    image: "/images/tools/soundraw.jpg"
+    imageCaption: "Soundraw homepage (screenshot captured July 2026)."
     award: "Best for creators"
     affiliateUrl: ""
     pricingTiers:
@@ -43,6 +45,8 @@ products:
     ratingCount: 360
     reviewBody: "The safest, most creator-friendly choice for royalty-free background music."
   - name: "Suno"
+    image: "/images/tools/suno.jpg"
+    imageCaption: "Suno homepage (screenshot captured July 2026)."
     award: "Best for full songs"
     affiliateUrl: ""
     pricingTiers:
@@ -69,6 +73,8 @@ products:
     ratingCount: 620
     reviewBody: "The most impressive full-song generator, best for original intros and jingles."
   - name: "Udio"
+    image: "/images/tools/udio.jpg"
+    imageCaption: "Udio homepage (screenshot captured July 2026)."
     award: "Best audio quality"
     affiliateUrl: ""
     pricingTiers:
@@ -95,6 +101,8 @@ products:
     ratingCount: 480
     reviewBody: "The pick when you want the cleanest, highest-quality AI songs."
   - name: "Mubert"
+    image: "/images/tools/mubert.jpg"
+    imageCaption: "Mubert homepage (screenshot captured July 2026)."
     award: "Best for streaming-safe loops"
     affiliateUrl: ""
     pricingTiers:

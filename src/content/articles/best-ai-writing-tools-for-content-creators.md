@@ -4,8 +4,8 @@ metaTitle: "7 Best AI Writing Tools for Creators (2026 Tested)"
 metaDescription: "We tested the top AI writing tools for YouTubers, bloggers and social creators. Compare Jasper, Copy.ai, Rytr, Anyword and Writesonic on price and output."
 category: "AI Writing Tools"
 categoryLink: "/ai-writing"
-ogImage: "/images/categories/ai-writing.jpg"
-cardImage: "/images/categories/ai-writing.jpg"
+ogImage: "/images/cards/best-ai-writing-tools-for-content-creators.jpg"
+cardImage: "/images/cards/best-ai-writing-tools-for-content-creators.jpg"
 cardTitle: "Best AI Writing Tools for Creators"
 cardSummary: "The five AI writing tools we'd actually pay for in 2026 — ranked by output quality, ease of use and value for creators."
 publishedLabel: "Updated July 2026"
@@ -17,6 +17,8 @@ quickPick:
   reason: "The most polished all-rounder for creators who care about staying on-brand across long-form and short-form content — provided you can justify the price."
 products:
   - name: "Jasper"
+    image: "/images/tools/jasper.jpg"
+    imageCaption: "Jasper homepage (screenshot captured July 2026)."
     award: "Best overall"
     affiliateUrl: ""
     pricingTiers:
@@ -32,7 +34,6 @@ products:
     freeTrialAvailable: true
     platform: ["web", "extension"]
     bestFor: "Brand-consistent long-form content"
-    image: ""
     description: "Jasper is a mature AI writing platform built around brand voice and campaign workflows. For creators, its strength is consistency: you can train it on your tone once and get on-brand scripts, blog posts and captions every time. It leans toward marketers and small teams rather than hobbyists."
     keyFeatures:
       - "Brand Voice trained on your own writing samples"
@@ -49,6 +50,8 @@ products:
     ratingCount: 428
     reviewBody: "Jasper remains our top pick for creators who publish a lot and need it all to sound like them. The price is the catch — it only pays off if writing is a core, recurring part of your workflow."
   - name: "Copy.ai"
+    image: "/images/tools/copy-ai.jpg"
+    imageCaption: "Copy.ai homepage (screenshot captured July 2026)."
     award: "Best for repurposing at scale"
     affiliateUrl: ""
     pricingTiers:
@@ -64,7 +67,6 @@ products:
     freeTrialAvailable: true
     platform: ["web"]
     bestFor: "Turning one idea into many formats"
-    image: ""
     description: "Copy.ai has repositioned as a go-to-market (GTM) platform in 2026, but its individual writing tier is still useful for creators. The free plan and affordable Starter plan handle chat-based drafting and template copy well; the jump to the automation tier is aimed squarely at teams."
     keyFeatures:
       - "Generous free plan for testing"
@@ -81,6 +83,8 @@ products:
     ratingCount: 312
     reviewBody: "For solo creators, Copy.ai's free and Starter plans are the sweet spot. Ignore the enterprise GTM messaging — you likely won't need it."
   - name: "Rytr"
+    image: "/images/tools/rytr.jpg"
+    imageCaption: "Rytr homepage (screenshot captured July 2026)."
     award: "Best value"
     affiliateUrl: ""
     pricingTiers:
@@ -96,7 +100,6 @@ products:
     freeTrialAvailable: true
     platform: ["web", "extension"]
     bestFor: "Short-form copy on a budget"
-    image: ""
     description: "Rytr is the budget champion. At $9 a month for unlimited generations, it undercuts almost everyone. The output isn't as refined as Jasper's for long-form, but for captions, hooks, descriptions and quick drafts it's more than enough."
     keyFeatures:
       - "Unlimited writing from $9/month"
@@ -113,6 +116,8 @@ products:
     ratingCount: 540
     reviewBody: "If you want AI writing without the subscription sting, Rytr is the obvious starting point. Most creators can live on the Saver plan indefinitely."
   - name: "Anyword"
+    image: "/images/tools/anyword.jpg"
+    imageCaption: "Anyword homepage (screenshot captured July 2026)."
     award: "Best for performance copy"
     affiliateUrl: ""
     pricingTiers:
@@ -128,7 +133,6 @@ products:
     freeTrialAvailable: true
     platform: ["web", "extension"]
     bestFor: "Copy you want to convert"
-    image: ""
     description: "Anyword's differentiator is its predictive performance score — it estimates how well a piece of copy will perform before you publish. For creators running ads, sales pages or monetised newsletters, that data layer is genuinely useful."
     keyFeatures:
       - "Predictive performance scoring on every draft"
@@ -145,6 +149,8 @@ products:
     ratingCount: 196
     reviewBody: "Anyword earns its place if you monetise your audience and want copy tuned to convert. Casual creators will find cheaper tools do the job."
   - name: "Writesonic"
+    image: "/images/tools/writesonic.jpg"
+    imageCaption: "Writesonic homepage (screenshot captured July 2026)."
     award: "Best for SEO-driven writing"
     affiliateUrl: ""
     pricingTiers:
@@ -160,7 +166,6 @@ products:
     freeTrialAvailable: true
     platform: ["web"]
     bestFor: "Bloggers focused on search traffic"
-    image: ""
     description: "Writesonic has evolved into an AI search-visibility and SEO content platform in 2026. It's less a casual writing buddy and more a system for publishing search-optimised articles at volume, which makes it a better fit for serious bloggers than for social creators."
     keyFeatures:
       - "SEO-focused long-form article generation"

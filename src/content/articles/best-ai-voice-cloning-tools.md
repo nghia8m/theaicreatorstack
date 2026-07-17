@@ -4,8 +4,8 @@ metaTitle: "Best AI Voice Cloning Tools for Creators (2026)"
 metaDescription: "Clone your own voice for narration with AI. Compare ElevenLabs, Play.ht and Podcastle on cloning quality, ethics and price for creators in 2026."
 category: "AI Voice & Audio Tools"
 categoryLink: "/ai-voice"
-ogImage: "/images/categories/ai-voice.jpg"
-cardImage: "/images/categories/ai-voice.jpg"
+ogImage: "/images/cards/best-ai-voice-cloning-tools.jpg"
+cardImage: "/images/cards/best-ai-voice-cloning-tools.jpg"
 cardTitle: "Best AI Voice Cloning Tools"
 cardSummary: "Narrate in your own voice without recording. The most realistic — and responsible — AI voice cloning tools."
 publishedLabel: "Updated July 2026"
@@ -17,6 +17,8 @@ quickPick:
   reason: "The most convincing voice clones from the smallest sample, with both instant and high-fidelity professional cloning options."
 products:
   - name: "ElevenLabs"
+    image: "/images/tools/elevenlabs.jpg"
+    imageCaption: "ElevenLabs homepage (screenshot captured July 2026)."
     award: "Best cloning quality"
     affiliateUrl: ""
     pricingTiers:
@@ -63,6 +65,8 @@ products:
     ratingCount: 360
     reviewBody: "The value pick when your cloned voice needs to narrate a lot of content."
   - name: "Podcastle"
+    image: "/images/tools/podcastle.jpg"
+    imageCaption: "Podcastle homepage (screenshot captured July 2026)."
     award: "Best for podcasters"
     affiliateUrl: ""
     pricingTiers:

@@ -4,8 +4,8 @@ metaTitle: "Best AI Video Generators for Faceless Channels (2026)"
 metaDescription: "Run a faceless YouTube channel with AI. Compare Pictory, InVideo AI and Runway for text-to-video, b-roll and automated editing in 2026."
 category: "AI Video Tools"
 categoryLink: "/ai-video"
-ogImage: "/images/categories/ai-video.jpg"
-cardImage: "/images/categories/ai-video.jpg"
+ogImage: "/images/cards/best-ai-video-generators-faceless-channels.jpg"
+cardImage: "/images/cards/best-ai-video-generators-faceless-channels.jpg"
 cardTitle: "Best AI Tools for Faceless Channels"
 cardSummary: "Text-to-video, stock footage and AI narration — the tools that make faceless channels possible without a camera."
 publishedLabel: "Updated July 2026"
@@ -17,6 +17,8 @@ quickPick:
   reason: "It turns a single prompt into a complete video — script, footage, voiceover and edits — which is exactly what a high-volume faceless channel needs."
 products:
   - name: "InVideo AI"
+    image: "/images/tools/invideo-ai.jpg"
+    imageCaption: "InVideo AI homepage (screenshot captured July 2026)."
     award: "Best all-in-one generator"
     affiliateUrl: ""
     pricingTiers:
@@ -43,6 +45,8 @@ products:
     ratingCount: 340
     reviewBody: "The most complete generator for a faceless channel that publishes often."
   - name: "Pictory"
+    image: "/images/tools/pictory.jpg"
+    imageCaption: "Pictory homepage (screenshot captured July 2026)."
     award: "Best for script-to-video"
     affiliateUrl: ""
     pricingTiers:
@@ -69,6 +73,8 @@ products:
     ratingCount: 410
     reviewBody: "The best pick when your faceless videos start life as a script or article."
   - name: "Runway"
+    image: "/images/tools/runway.jpg"
+    imageCaption: "Runway homepage (screenshot captured July 2026)."
     award: "Best for original b-roll"
     affiliateUrl: ""
     pricingTiers:

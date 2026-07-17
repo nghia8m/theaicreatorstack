@@ -4,8 +4,8 @@ metaTitle: "Best AI Subtitle & Caption Generators (2026)"
 metaDescription: "Add accurate, animated captions to your videos with AI. Compare Submagic, Captions, VEED and Descript for creators in 2026 on price and features."
 category: "AI Video Tools"
 categoryLink: "/ai-video"
-ogImage: "/images/categories/ai-video.jpg"
-cardImage: "/images/categories/ai-video.jpg"
+ogImage: "/images/cards/best-ai-subtitle-caption-generators.jpg"
+cardImage: "/images/cards/best-ai-subtitle-caption-generators.jpg"
 cardTitle: "Best AI Subtitle & Caption Tools"
 cardSummary: "Accurate, animated captions that boost watch time — the best AI subtitle generators for short and long video."
 publishedLabel: "Updated July 2026"
@@ -17,6 +17,8 @@ quickPick:
   reason: "Purpose-built for short-form captions, it produces the trendy animated, word-highlighting subtitles that drive retention on TikTok, Reels and Shorts with almost no effort."
 products:
   - name: "Submagic"
+    image: "/images/tools/submagic.jpg"
+    imageCaption: "Submagic homepage (screenshot captured July 2026)."
     award: "Best for short-form captions"
     affiliateUrl: ""
     pricingTiers:
@@ -43,6 +45,8 @@ products:
     ratingCount: 390
     reviewBody: "The specialist for eye-catching short-form captions that lift retention."
   - name: "Captions"
+    image: "/images/tools/captions.jpg"
+    imageCaption: "Captions homepage (screenshot captured July 2026)."
     award: "Best all-in-one caption app"
     affiliateUrl: ""
     pricingTiers:
@@ -66,6 +70,8 @@ products:
     ratingCount: 430
     reviewBody: "The best pick for creators captioning and editing on their phone."
   - name: "VEED"
+    image: "/images/tools/veed.jpg"
+    imageCaption: "VEED homepage (screenshot captured July 2026)."
     award: "Best for accuracy and languages"
     affiliateUrl: ""
     pricingTiers:
@@ -89,6 +95,8 @@ products:
     ratingCount: 388
     reviewBody: "The best choice for accurate, translatable subtitles on longer content."
   - name: "Descript"
+    image: "/images/tools/descript.jpg"
+    imageCaption: "Descript homepage (screenshot captured July 2026)."
     award: "Best for long-form and podcasts"
     affiliateUrl: ""
     pricingTiers:

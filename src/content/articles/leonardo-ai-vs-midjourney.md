@@ -4,8 +4,8 @@ metaTitle: "Leonardo AI vs Midjourney (2026): Which Wins?"
 metaDescription: "Leonardo AI vs Midjourney compared for 2026 — image quality, control, pricing, free plans and affiliate programs for creators."
 category: "AI Design & Thumbnail Tools"
 categoryLink: "/ai-design"
-ogImage: "/images/categories/ai-design.jpg"
-cardImage: "/images/categories/ai-design.jpg"
+ogImage: "/images/cards/leonardo-ai-vs-midjourney.jpg"
+cardImage: "/images/cards/leonardo-ai-vs-midjourney.jpg"
 cardTitle: "Leonardo AI vs Midjourney"
 cardSummary: "Control and a free plan, or raw beauty? The two biggest AI art tools compared for creators."
 publishedLabel: "Updated July 2026"
@@ -17,6 +17,8 @@ quickPick:
   reason: "For most creators, Leonardo's free plan, fine control and flexibility win. Choose Midjourney only if absolute image beauty outweighs control, cost and the lack of an affiliate program."
 products:
   - name: "Leonardo.ai"
+    image: "/images/tools/leonardo-ai.jpg"
+    imageCaption: "Leonardo.ai homepage (screenshot captured July 2026)."
     award: "Best for control and value"
     affiliateUrl: ""
     pricingTiers:
@@ -40,6 +42,8 @@ products:
     ratingCount: 540
     reviewBody: "The more practical, flexible and affordable tool for everyday creator work."
   - name: "Midjourney"
+    image: "/images/tools/midjourney.jpg"
+    imageCaption: "Midjourney homepage (screenshot captured July 2026)."
     award: "Best raw beauty"
     affiliateUrl: ""
     pricingTiers:

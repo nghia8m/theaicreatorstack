@@ -4,8 +4,8 @@ metaTitle: "Writesonic vs Rytr (2026): Which Should You Pick?"
 metaDescription: "Writesonic vs Rytr compared for 2026 — pricing, output, SEO features and who each AI writer really suits. A clear pick for creators on any budget."
 category: "AI Writing Tools"
 categoryLink: "/ai-writing"
-ogImage: "/images/categories/ai-writing.jpg"
-cardImage: "/images/categories/ai-writing.jpg"
+ogImage: "/images/cards/writesonic-vs-rytr.jpg"
+cardImage: "/images/cards/writesonic-vs-rytr.jpg"
 cardTitle: "Writesonic vs Rytr"
 cardSummary: "A budget AI writer versus an SEO content platform — which one fits your workflow and wallet?"
 publishedLabel: "Updated July 2026"
@@ -17,6 +17,8 @@ quickPick:
   reason: "For most individual creators, Rytr's $9 unlimited plan does the job. Choose Writesonic only if SEO article production at volume is your main goal."
 products:
   - name: "Rytr"
+    image: "/images/tools/rytr.jpg"
+    imageCaption: "Rytr homepage (screenshot captured July 2026)."
     award: "Best for everyday writing"
     affiliateUrl: ""
     pricingTiers:
@@ -40,6 +42,8 @@ products:
     ratingCount: 540
     reviewBody: "The better pick for the majority of creators who want good writing without the price or complexity of an SEO platform."
   - name: "Writesonic"
+    image: "/images/tools/writesonic.jpg"
+    imageCaption: "Writesonic homepage (screenshot captured July 2026)."
     award: "Best for SEO at scale"
     affiliateUrl: ""
     pricingTiers:

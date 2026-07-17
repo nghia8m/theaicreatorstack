@@ -4,8 +4,8 @@ metaTitle: "7 Best AI Tools for Podcasters (2026)"
 metaDescription: "The best AI tools for podcasters in 2026 — Podcastle, Descript and Castmagic compared for recording, editing and repurposing episodes into content."
 category: "AI Voice & Audio Tools"
 categoryLink: "/ai-voice"
-ogImage: "/images/categories/ai-voice.jpg"
-cardImage: "/images/categories/ai-voice.jpg"
+ogImage: "/images/cards/best-ai-tools-for-podcasters.jpg"
+cardImage: "/images/cards/best-ai-tools-for-podcasters.jpg"
 cardTitle: "Best AI Tools for Podcasters"
 cardSummary: "Record, edit and repurpose your podcast with AI — the tools that cover the whole episode workflow."
 publishedLabel: "Updated July 2026"
@@ -17,6 +17,8 @@ quickPick:
   reason: "It records, edits by text, cleans up audio and generates clips and transcripts — the closest thing to an all-in-one podcast studio for creators."
 products:
   - name: "Descript"
+    image: "/images/tools/descript.jpg"
+    imageCaption: "Descript homepage (screenshot captured July 2026)."
     award: "Best all-in-one workflow"
     affiliateUrl: ""
     pricingTiers:
@@ -40,6 +42,8 @@ products:
     ratingCount: 512
     reviewBody: "The most complete single tool for producing a podcast."
   - name: "Podcastle"
+    image: "/images/tools/podcastle.jpg"
+    imageCaption: "Podcastle homepage (screenshot captured July 2026)."
     award: "Best recording studio"
     affiliateUrl: ""
     pricingTiers:
@@ -63,6 +67,8 @@ products:
     ratingCount: 340
     reviewBody: "The best focused studio for recording remote interview podcasts."
   - name: "Castmagic"
+    image: "/images/tools/castmagic.jpg"
+    imageCaption: "Castmagic homepage (screenshot captured July 2026)."
     award: "Best for repurposing"
     affiliateUrl: ""
     pricingTiers:

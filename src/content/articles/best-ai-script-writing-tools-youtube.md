@@ -4,8 +4,8 @@ metaTitle: "Best AI Script Writing Tools for YouTube (2026)"
 metaDescription: "The best AI tools for writing YouTube scripts in 2026 — compared for hooks, structure, retention and price. Jasper, Copy.ai, Rytr and ChatGPT tested."
 category: "AI Writing Tools"
 categoryLink: "/ai-writing"
-ogImage: "/images/categories/ai-writing.jpg"
-cardImage: "/images/categories/ai-writing.jpg"
+ogImage: "/images/cards/best-ai-script-writing-tools-youtube.jpg"
+cardImage: "/images/cards/best-ai-script-writing-tools-youtube.jpg"
 cardTitle: "Best AI Script Writing Tools"
 cardSummary: "AI tools that help you write tighter YouTube scripts with stronger hooks and better pacing — ranked for creators."
 publishedLabel: "Updated July 2026"
@@ -17,6 +17,8 @@ quickPick:
   reason: "Best for full, structured scripts that already sound like you — thanks to brand voice and a proper long-form editor."
 products:
   - name: "Jasper"
+    image: "/images/tools/jasper.jpg"
+    imageCaption: "Jasper homepage (screenshot captured July 2026)."
     award: "Best for full scripts"
     affiliateUrl: ""
     pricingTiers:
@@ -37,6 +39,8 @@ products:
     ratingCount: 428
     reviewBody: "Our go-to for turning an outline into a teleprompter-ready draft."
   - name: "Copy.ai"
+    image: "/images/tools/copy-ai.jpg"
+    imageCaption: "Copy.ai homepage (screenshot captured July 2026)."
     award: "Best for hooks and variations"
     affiliateUrl: ""
     pricingTiers:
@@ -57,6 +61,8 @@ products:
     ratingCount: 312
     reviewBody: "Best used alongside a stronger long-form tool for hook and angle brainstorming."
   - name: "Rytr"
+    image: "/images/tools/rytr.jpg"
+    imageCaption: "Rytr homepage (screenshot captured July 2026)."
     award: "Best value"
     affiliateUrl: ""
     pricingTiers:
@@ -77,6 +83,8 @@ products:
     ratingCount: 540
     reviewBody: "The budget pick for short-form scripts and outlines."
   - name: "ChatGPT"
+    image: "/images/tools/chatgpt.jpg"
+    imageCaption: "ChatGPT homepage (screenshot captured July 2026)."
     award: "Best free all-rounder"
     affiliateUrl: ""
     pricingTiers:

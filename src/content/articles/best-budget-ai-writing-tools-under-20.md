@@ -4,8 +4,8 @@ metaTitle: "Best Budget AI Writing Tools Under $20 (2026)"
 metaDescription: "The best cheap AI writing tools under $20 a month in 2026 for creators on a budget — Rytr, ChatGPT, Copy.ai and Notion AI compared on value."
 category: "AI Writing Tools"
 categoryLink: "/ai-writing"
-ogImage: "/images/categories/ai-writing.jpg"
-cardImage: "/images/categories/ai-writing.jpg"
+ogImage: "/images/cards/best-budget-ai-writing-tools-under-20.jpg"
+cardImage: "/images/cards/best-budget-ai-writing-tools-under-20.jpg"
 cardTitle: "Best Budget AI Writing Tools"
 cardSummary: "You don't need a $60 subscription to write with AI. These four tools cost under $20 a month — or nothing at all."
 publishedLabel: "Updated July 2026"
@@ -17,6 +17,8 @@ quickPick:
   reason: "Unlimited AI writing for $9 a month is the best value in the category, and there's a free plan to test it first."
 products:
   - name: "Rytr"
+    image: "/images/tools/rytr.jpg"
+    imageCaption: "Rytr homepage (screenshot captured July 2026)."
     award: "Best value overall"
     affiliateUrl: ""
     pricingTiers:
@@ -37,6 +39,8 @@ products:
     ratingCount: 540
     reviewBody: "The clear value winner for creators watching their spend."
   - name: "ChatGPT"
+    image: "/images/tools/chatgpt.jpg"
+    imageCaption: "ChatGPT homepage (screenshot captured July 2026)."
     award: "Best free option"
     affiliateUrl: ""
     pricingTiers:
@@ -57,6 +61,8 @@ products:
     ratingCount: 980
     reviewBody: "The best place to start if you've never used AI writing — and it's free."
   - name: "Copy.ai"
+    image: "/images/tools/copy-ai.jpg"
+    imageCaption: "Copy.ai homepage (screenshot captured July 2026)."
     award: "Best free plan for templates"
     affiliateUrl: ""
     pricingTiers:
@@ -77,6 +83,8 @@ products:
     ratingCount: 312
     reviewBody: "Best used on its free plan for template-driven captions and hooks."
   - name: "Notion AI"
+    image: "/images/tools/notion-ai.jpg"
+    imageCaption: "Notion AI homepage (screenshot captured July 2026)."
     award: "Best for Notion users"
     affiliateUrl: ""
     pricingTiers:

@@ -4,8 +4,8 @@ metaTitle: "Best AI Thumbnail Makers for YouTube (2026)"
 metaDescription: "Make click-worthy YouTube thumbnails with AI. Compare Canva, Adobe Express and Ideogram on templates, text rendering and price for creators in 2026."
 category: "AI Design & Thumbnail Tools"
 categoryLink: "/ai-design"
-ogImage: "/images/categories/ai-design.jpg"
-cardImage: "/images/categories/ai-design.jpg"
+ogImage: "/images/cards/best-ai-thumbnail-makers-youtube.jpg"
+cardImage: "/images/cards/best-ai-thumbnail-makers-youtube.jpg"
 cardTitle: "Best AI Thumbnail Makers"
 cardSummary: "Design scroll-stopping thumbnails fast — the AI-powered thumbnail makers that boost your click-through rate."
 publishedLabel: "Updated July 2026"
@@ -17,6 +17,8 @@ quickPick:
   reason: "The fastest path to a polished thumbnail: thousands of YouTube templates, one-click background removal and AI image tools in an editor anyone can use."
 products:
   - name: "Canva"
+    image: "/images/tools/canva.jpg"
+    imageCaption: "Canva homepage (screenshot captured July 2026)."
     award: "Best overall"
     affiliateUrl: ""
     pricingTiers:
@@ -43,6 +45,8 @@ products:
     ratingCount: 910
     reviewBody: "The most practical thumbnail tool for the vast majority of creators."
   - name: "Adobe Express"
+    image: "/images/tools/adobe-express.jpg"
+    imageCaption: "Adobe Express homepage (screenshot captured July 2026)."
     award: "Best for polish"
     affiliateUrl: ""
     pricingTiers:
@@ -66,6 +70,8 @@ products:
     ratingCount: 430
     reviewBody: "A great choice if you want Adobe-grade polish without opening Photoshop."
   - name: "Ideogram"
+    image: "/images/tools/ideogram.jpg"
+    imageCaption: "Ideogram homepage (screenshot captured July 2026)."
     award: "Best for text-in-image"
     affiliateUrl: ""
     pricingTiers:

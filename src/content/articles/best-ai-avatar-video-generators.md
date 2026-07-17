@@ -4,8 +4,8 @@ metaTitle: "Best AI Avatar Video Generators (2026 Compared)"
 metaDescription: "Create talking-head videos without filming using AI avatars. Compare Synthesia, HeyGen and InVideo AI for creators in 2026 on price and realism."
 category: "AI Video Tools"
 categoryLink: "/ai-video"
-ogImage: "/images/categories/ai-video.jpg"
-cardImage: "/images/categories/ai-video.jpg"
+ogImage: "/images/cards/best-ai-avatar-video-generators.jpg"
+cardImage: "/images/cards/best-ai-avatar-video-generators.jpg"
 cardTitle: "Best AI Avatar Video Generators"
 cardSummary: "Turn a script into a presenter-led video — no camera, no studio. The most realistic AI avatar tools of 2026."
 publishedLabel: "Updated July 2026"
@@ -17,6 +17,8 @@ quickPick:
   reason: "The most natural-looking avatars and lip-sync, plus fast realistic voice cloning — the best balance of realism and ease for creators."
 products:
   - name: "HeyGen"
+    image: "/images/tools/heygen.jpg"
+    imageCaption: "HeyGen homepage (screenshot captured July 2026)."
     award: "Best realism"
     affiliateUrl: ""
     pricingTiers:
@@ -43,6 +45,8 @@ products:
     ratingCount: 430
     reviewBody: "The most lifelike option and the one most creators will be happiest with."
   - name: "Synthesia"
+    image: "/images/tools/synthesia.jpg"
+    imageCaption: "Synthesia homepage (screenshot captured July 2026)."
     award: "Best for training and courses"
     affiliateUrl: ""
     pricingTiers:
@@ -69,6 +73,8 @@ products:
     ratingCount: 510
     reviewBody: "The safe, polished choice for education and corporate-style videos."
   - name: "InVideo AI"
+    image: "/images/tools/invideo-ai.jpg"
+    imageCaption: "InVideo AI homepage (screenshot captured July 2026)."
     award: "Best for full auto-generated videos"
     affiliateUrl: ""
     pricingTiers:

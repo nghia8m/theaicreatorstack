@@ -11,6 +11,7 @@
   --color-bg: #ffffff;
   --color-bg-soft: #f8fafc;
   --color-bg-mute: #f1f5f9;
+  --color-tint: #eaf0f9;
   --color-border: #e2e8f0;
   --color-text: #1e293b;
   --color-text-soft: #475569;
@@ -278,10 +279,76 @@ h1, h2, h3, h4 {
 .section-head h2 {
   font-size: clamp(1.6rem, 3vw, 2.1rem);
   margin: 0 0 10px;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 12px;
+}
+.section-head h2::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 52px;
+  height: 3px;
+  border-radius: 2px;
+  background: var(--color-accent);
 }
 .section-head p {
   color: var(--color-text-mute);
   margin: 0;
+}
+
+/* ---------- Section background rhythm (3-tone) ---------- */
+.section-tint {
+  background: var(--color-tint);
+}
+.section-dark {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(160deg, var(--color-brand) 0%, var(--color-brand-ink) 100%);
+}
+.section-dark::before {
+  content: "";
+  position: absolute;
+  top: -20%;
+  right: -5%;
+  width: 620px;
+  height: 620px;
+  background: radial-gradient(circle, rgba(6, 182, 212, 0.22), rgba(6, 182, 212, 0) 68%);
+  pointer-events: none;
+}
+.section-dark > .container {
+  position: relative;
+  z-index: 1;
+}
+.section-dark .section-head h2 {
+  color: #fff;
+}
+.section-dark .section-head p {
+  color: #cbd5e1;
+}
+.section-dark .card {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.14);
+  backdrop-filter: blur(4px);
+}
+.section-dark .card:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+.section-dark .card h3 {
+  color: #fff;
+}
+.section-dark .card p {
+  color: #cbd5e1;
+}
+.section-dark .card-link {
+  color: var(--color-accent-light, #67e8f9);
+}
+.section-dark .usecase-icon {
+  background: rgba(6, 182, 212, 0.18);
+  border-color: rgba(6, 182, 212, 0.4);
+  color: #67e8f9;
 }
 .card-grid {
   display: grid;

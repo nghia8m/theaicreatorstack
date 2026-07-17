@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: nghia8m/theaicreatorstack # TODO: change to <github-username>/<repo> after you create the repo
+  repo: nghia8m/theaicreatorstack
   branch: main
   base_url: https://theaicreatorstack-oauth.YOUR-SUBDOMAIN.workers.dev # TODO: set to your deployed OAuth worker URL
 

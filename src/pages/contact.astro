@@ -1,0 +1,41 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+// Web3Forms access key — replace with your own key from https://web3forms.com (free).
+// You can also set it later via Admin → Site Settings if you wire it into site.json.
+const WEB3FORMS_ACCESS_KEY = "YOUR_WEB3FORMS_ACCESS_KEY";
+---
+<BaseLayout
+  title="Contact — AI Creator Stack"
+  description="Get in touch with the AI Creator Stack team about reviews, corrections, or partnership enquiries."
+  canonicalPath="/contact"
+>
+  <div class="container prose">
+    <h1>Contact us</h1>
+    <p>
+      Have a correction, a tool suggestion, or a partnership enquiry? Send us a message and we'll get
+      back to you. You can also email us directly at
+      <a href="mailto:info@theaicreatorstack.com">info@theaicreatorstack.com</a>.
+    </p>
+
+    <form class="form" action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value={WEB3FORMS_ACCESS_KEY} />
+      <input type="hidden" name="subject" value="New message from AI Creator Stack" />
+      <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off" />
+
+      <div>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+      <div>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Send message</button>
+    </form>
+  </div>
+</BaseLayout>

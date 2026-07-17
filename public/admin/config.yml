@@ -1,0 +1,176 @@
+backend:
+  name: github
+  repo: nghia8m/theaicreatorstack # TODO: change to <github-username>/<repo> after you create the repo
+  branch: main
+  base_url: https://theaicreatorstack-oauth.YOUR-SUBDOMAIN.workers.dev # TODO: set to your deployed OAuth worker URL
+
+# Uploaded media (tool screenshots, hero images) go here
+media_folder: "public/images"
+public_folder: "/images"
+
+site_url: https://theaicreatorstack.com
+display_url: https://theaicreatorstack.com
+logo_url: https://theaicreatorstack.com/images/logo.png
+
+collections:
+  - name: articles
+    label: "Reviews / Articles"
+    label_singular: "Article"
+    folder: "src/content/articles"
+    create: true
+    slug: "{{slug}}"
+    extension: md
+    format: frontmatter
+    preview_path: "{{slug}}"
+    summary: "{{title}}  [{{category}}]"
+    sortable_fields: [order, title, lastVerified]
+    fields:
+      - { label: "Title (H1)", name: title, widget: string }
+      - { label: "Meta title (<=70 chars)", name: metaTitle, widget: string, pattern: ['^.{1,70}$', "Keep meta title to 70 characters or fewer"] }
+      - { label: "Meta description (<=165 chars)", name: metaDescription, widget: text, pattern: ['^.{1,165}$', "Keep meta description to 165 characters or fewer"] }
+      - label: "Category"
+        name: category
+        widget: select
+        options:
+          - "AI Writing Tools"
+          - "AI Video Tools"
+          - "AI Voice & Audio Tools"
+          - "AI Design & Thumbnail Tools"
+          - "AI SEO & Analytics Tools"
+      - label: "Category link"
+        name: categoryLink
+        widget: select
+        options:
+          - { label: "AI Writing", value: "/ai-writing" }
+          - { label: "AI Video", value: "/ai-video" }
+          - { label: "AI Voice", value: "/ai-voice" }
+          - { label: "AI Design", value: "/ai-design" }
+          - { label: "AI SEO", value: "/ai-seo" }
+      - { label: "OG image", name: ogImage, widget: image, required: false, choose_url: true }
+      - { label: "Card image", name: cardImage, widget: image, required: false, choose_url: true }
+      - { label: "Card title", name: cardTitle, widget: string, required: false }
+      - { label: "Card summary", name: cardSummary, widget: text }
+      - { label: "Published label", name: publishedLabel, widget: string, default: "Updated 2026" }
+      - { label: "Read time", name: readTime, widget: string, default: "8 min read" }
+      - { label: "Intro", name: intro, widget: text }
+      - { label: "Price note (disclaimer)", name: priceNote, widget: text, required: false }
+      - { label: "Last verified (date prices/features checked)", name: lastVerified, widget: string, hint: "e.g. 2026-07-17" }
+      - label: "Editor's quick pick"
+        name: quickPick
+        widget: object
+        fields:
+          - { label: "Tool name", name: name, widget: string }
+          - { label: "Why", name: reason, widget: text }
+      - label: "Products (tools reviewed)"
+        name: products
+        widget: list
+        min: 1
+        label_singular: "Tool"
+        summary: "{{fields.name}}"
+        fields:
+          - { label: "Name", name: name, widget: string }
+          - { label: "Award / badge", name: award, widget: string, required: false, hint: "e.g. Best overall, Best value" }
+          - { label: "Affiliate URL", name: affiliateUrl, widget: string, required: false, default: "" }
+          - label: "Pricing tiers"
+            name: pricingTiers
+            widget: list
+            required: false
+            summary: "{{fields.tierName}} — {{fields.price}}"
+            fields:
+              - { label: "Tier name", name: tierName, widget: string }
+              - { label: "Price", name: price, widget: string, hint: "e.g. Free, $24/mo, Custom" }
+              - { label: "Features", name: features, widget: list, field: { label: "Feature", name: feature, widget: string } }
+          - { label: "Free trial / free tier available", name: freeTrialAvailable, widget: boolean, default: false }
+          - label: "Platforms"
+            name: platform
+            widget: select
+            multiple: true
+            required: false
+            options: ["web", "desktop", "mobile", "extension"]
+          - { label: "Rating (text)", name: rating, widget: string, required: false }
+          - { label: "Best for", name: bestFor, widget: string, required: false }
+          - { label: "Image (screenshot)", name: image, widget: image, required: false, choose_url: true }
+          - { label: "Image caption", name: imageCaption, widget: string, required: false, hint: "Mark clearly if it is an illustrative stock image, not the real UI" }
+          - { label: "Description", name: description, widget: text }
+          - { label: "Key features", name: keyFeatures, widget: list, required: false, field: { label: "Feature", name: feature, widget: string } }
+          - { label: "Pros", name: pros, widget: list, required: false, field: { label: "Pro", name: pro, widget: string } }
+          - { label: "Cons", name: cons, widget: list, required: false, field: { label: "Con", name: con, widget: string } }
+          - { label: "Rating value (0-5)", name: ratingValue, widget: number, required: false, value_type: float, min: 0, max: 5, step: 0.1 }
+          - { label: "Rating count", name: ratingCount, widget: number, required: false, value_type: int, min: 0 }
+          - { label: "Review body", name: reviewBody, widget: text, required: false }
+      - label: "FAQs"
+        name: faqs
+        widget: list
+        required: false
+        summary: "{{fields.q}}"
+        fields:
+          - { label: "Question", name: q, widget: string }
+          - { label: "Answer", name: a, widget: text }
+      - { label: "Conclusion", name: conclusion, widget: text }
+      - { label: "Order (lower = first)", name: order, widget: number, default: 99, value_type: int }
+      - { label: "Draft", name: draft, widget: boolean, default: false }
+      - { label: "Body (optional extra prose)", name: body, widget: markdown, required: false }
+
+  - name: settings
+    label: "Site Settings"
+    files:
+      - name: site
+        label: "Site configuration"
+        file: "src/data/site.json"
+        fields:
+          - { label: "Logo (pre)", name: logoPre, widget: string }
+          - { label: "Logo (accent)", name: logoAccent, widget: string }
+          - label: "Header"
+            name: header
+            widget: object
+            fields:
+              - label: "Nav"
+                name: nav
+                widget: list
+                fields:
+                  - { label: "Label", name: label, widget: string }
+                  - { label: "Link", name: link, widget: string }
+          - label: "Footer"
+            name: footer
+            widget: object
+            fields:
+              - { label: "Tagline", name: tagline, widget: text }
+              - label: "Columns"
+                name: columns
+                widget: list
+                fields:
+                  - { label: "Title", name: title, widget: string }
+                  - label: "Links"
+                    name: links
+                    widget: list
+                    fields:
+                      - { label: "Label", name: label, widget: string }
+                      - { label: "Link", name: link, widget: string }
+              - { label: "Disclosure", name: disclosure, widget: text }
+              - { label: "Copyright", name: copyright, widget: string }
+          - label: "Hero"
+            name: hero
+            widget: object
+            fields:
+              - label: "Slides"
+                name: slides
+                widget: list
+                required: false
+                fields:
+                  - { label: "Image", name: image, widget: image, choose_url: true }
+                  - { label: "Alt text", name: alt, widget: string, required: false }
+          - label: "Featured deal"
+            name: deals
+            widget: object
+            required: false
+            fields:
+              - { label: "Image", name: image, widget: image, required: false, choose_url: true }
+              - { label: "Title", name: title, widget: string, required: false }
+              - { label: "Text", name: text, widget: text, required: false }
+              - { label: "Link", name: link, widget: string, required: false }
+          - label: "Custom code (GA / PartnerStack tracking)"
+            name: code
+            widget: object
+            fields:
+              - { label: "Custom head code", name: customHead, widget: text, required: false }
+              - { label: "Custom body code", name: customBody, widget: text, required: false }

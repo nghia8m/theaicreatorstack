@@ -1,0 +1,57 @@
+{
+  "logoPre": "AI Creator ",
+  "logoAccent": "Stack",
+  "header": {
+    "nav": [
+      { "label": "AI Writing", "link": "/ai-writing" },
+      { "label": "AI Video", "link": "/ai-video" },
+      { "label": "AI Voice", "link": "/ai-voice" },
+      { "label": "AI Design", "link": "/ai-design" },
+      { "label": "AI SEO", "link": "/ai-seo" },
+      { "label": "About", "link": "/about" }
+    ]
+  },
+  "footer": {
+    "tagline": "Hands-on reviews of the AI tools that power modern content creators — from script to publish.",
+    "columns": [
+      {
+        "title": "Categories",
+        "links": [
+          { "label": "AI Writing Tools", "link": "/ai-writing" },
+          { "label": "AI Video Tools", "link": "/ai-video" },
+          { "label": "AI Voice Tools", "link": "/ai-voice" },
+          { "label": "AI Design Tools", "link": "/ai-design" },
+          { "label": "AI SEO Tools", "link": "/ai-seo" }
+        ]
+      },
+      {
+        "title": "Company",
+        "links": [
+          { "label": "About", "link": "/about" },
+          { "label": "Contact", "link": "/contact" },
+          { "label": "Privacy Policy", "link": "/privacy-policy" },
+          { "label": "Affiliate Disclosure", "link": "/affiliate-disclosure" }
+        ]
+      }
+    ],
+    "disclosure": "AI Creator Stack is reader-supported. When you buy through links on our site, we may earn an affiliate commission at no extra cost to you. This never influences which tools we recommend.",
+    "copyright": "© 2026 AI Creator Stack. All rights reserved."
+  },
+  "hero": {
+    "slides": [
+      { "image": "/images/hero/creator-workspace.jpg", "alt": "AI tools for content creators" },
+      { "image": "/images/hero/ai-network.jpg", "alt": "AI-powered creator workflow" },
+      { "image": "/images/hero/content-flow.jpg", "alt": "From script to publish with AI" }
+    ]
+  },
+  "deals": {
+    "image": "",
+    "title": "",
+    "text": "",
+    "link": ""
+  },
+  "code": {
+    "customHead": "",
+    "customBody": ""
+  }
+}

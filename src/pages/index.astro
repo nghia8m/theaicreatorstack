@@ -1,0 +1,114 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import site from "../data/site.json";
+
+const all = await getCollection("articles", ({ data }) => !data.draft);
+const articles = all.sort((a, b) => a.data.order - b.data.order || a.data.title.localeCompare(b.data.title));
+const featured = articles.slice(0, 6);
+
+const slides = site.hero?.slides ?? [];
+
+const categories = [
+  { name: "AI Writing", link: "/ai-writing", desc: "Scriptwriting, blogs & captions" },
+  { name: "AI Video", link: "/ai-video", desc: "Editing, avatars & clip repurposing" },
+  { name: "AI Voice", link: "/ai-voice", desc: "Voiceovers, TTS & audio cleanup" },
+  { name: "AI Design", link: "/ai-design", desc: "Thumbnails, images & graphics" },
+  { name: "AI SEO", link: "/ai-seo", desc: "Keywords, tags & analytics" },
+];
+---
+
+<BaseLayout
+  title="AI Creator Stack — Honest Reviews of AI Tools for Content Creators"
+  description="Hands-on, no-hype reviews of the best AI tools for YouTubers, TikTokers, bloggers and podcasters — organized by every stage of the creator workflow."
+  canonicalPath="/"
+>
+  <section class="hero">
+    {slides.length > 0 ? (
+      <div class="hero-slides" data-hero>
+        {slides.map((s, i) => (
+          <div class="hero-slide" data-slide style={i === 0 ? "" : "display:none"}>
+            <img src={s.image} alt={s.alt ?? ""} />
+            <div class="container">
+              <div class="hero-content">
+                <span class="eyebrow">AI Tools for Creators</span>
+                <h1>Build your AI creator stack the smart way</h1>
+                <p>Independent, hands-on reviews of the tools that take you from blank page to published — no hype, no copy-paste specs.</p>
+                <a href="/ai-video" class="btn btn-accent">Explore reviews</a>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    ) : (
+      <div class="container hero-flat">
+        <div class="hero-content">
+          <span class="eyebrow">AI Tools for Creators</span>
+          <h1>Build your AI creator stack the smart way</h1>
+          <p>Independent, hands-on reviews of the tools that take you from blank page to published — no hype, no copy-paste specs.</p>
+          <a href="/ai-video" class="btn btn-accent">Explore reviews</a>
+        </div>
+      </div>
+    )}
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2>Find tools by workflow stage</h2>
+        <p>Every AI tool we review is sorted by where it fits in your content pipeline.</p>
+      </div>
+      <div class="card-grid">
+        {categories.map((c) => (
+          <a href={c.link} class="card">
+            <div class="card-body">
+              <span class="card-cat">Category</span>
+              <h3>{c.name}</h3>
+              <p>{c.desc}</p>
+              <span class="card-link">Browse {c.name} tools →</span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  {featured.length > 0 && (
+    <section class="section" style="background:var(--color-bg-soft);">
+      <div class="container">
+        <div class="section-head">
+          <h2>Latest reviews</h2>
+          <p>Fresh comparisons and buyer's guides, updated for 2026.</p>
+        </div>
+        <div class="card-grid">
+          {featured.map((a) => (
+            <a href={`/${a.id}`} class="card">
+              {a.data.cardImage && <img class="card-img" src={a.data.cardImage} alt={a.data.cardTitle ?? a.data.title} loading="lazy" />}
+              <div class="card-body">
+                <span class="card-cat">{a.data.category}</span>
+                <h3>{a.data.cardTitle ?? a.data.title}</h3>
+                <p>{a.data.cardSummary}</p>
+                <span class="card-link">Read review →</span>
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  {slides.length > 1 && (
+    <script>
+      const wrap = document.querySelector("[data-hero]");
+      if (wrap) {
+        const items = Array.from(wrap.querySelectorAll("[data-slide]"));
+        let idx = 0;
+        setInterval(() => {
+          items[idx].style.display = "none";
+          idx = (idx + 1) % items.length;
+          items[idx].style.display = "";
+        }, 5000);
+      }
+    </script>
+  )}
+</BaseLayout>

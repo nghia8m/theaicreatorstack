@@ -1,0 +1,47 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const { category, categoryLink, title, description, blurb } = Astro.props;
+
+const all = await getCollection("articles", ({ data }) => !data.draft && data.categoryLink === categoryLink);
+const articles = all.sort((a, b) => a.data.order - b.data.order || a.data.title.localeCompare(b.data.title));
+
+const metaTitle = title ?? `${category} — AI Creator Stack`;
+---
+
+<BaseLayout title={metaTitle} description={description} canonicalPath={categoryLink}>
+  <section class="hero">
+    <div class="container hero-flat">
+      <div class="hero-content">
+        <span class="eyebrow">{category}</span>
+        <h1>{title ?? category}</h1>
+        <p>{blurb ?? description}</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      {articles.length === 0 ? (
+        <p style="text-align:center;color:var(--color-text-mute);">
+          New reviews in this category are on the way. Check back soon.
+        </p>
+      ) : (
+        <div class="card-grid">
+          {articles.map((a) => (
+            <a href={`/${a.id}`} class="card">
+              {a.data.cardImage && <img class="card-img" src={a.data.cardImage} alt={a.data.cardTitle ?? a.data.title} loading="lazy" />}
+              <div class="card-body">
+                <span class="card-cat">{a.data.category}</span>
+                <h3>{a.data.cardTitle ?? a.data.title}</h3>
+                <p>{a.data.cardSummary}</p>
+                <span class="card-link">Read review →</span>
+              </div>
+            </a>
+          ))}
+        </div>
+      )}
+    </div>
+  </section>
+</BaseLayout>

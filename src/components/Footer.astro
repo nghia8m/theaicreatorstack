@@ -1,0 +1,30 @@
+---
+import site from "../data/site.json";
+const f = site.footer ?? {};
+const columns = f.columns ?? [];
+---
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo">{site.logoPre}<span class="accent">{site.logoAccent}</span></div>
+        <p class="footer-tagline">{f.tagline}</p>
+      </div>
+      {columns.map((col) => (
+        <div class="footer-col">
+          <h4>{col.title}</h4>
+          <ul>
+            {col.links.map((l) => (
+              <li><a href={l.link}>{l.label}</a></li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </div>
+    <div class="footer-bottom container" style="padding-left:0;padding-right:0;">
+      {f.disclosure && <p class="footer-disclosure">{f.disclosure}</p>}
+      <p>{f.copyright}</p>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,25 @@
+---
+import site from "../data/site.json";
+const nav = site.header?.nav ?? [];
+---
+
+<header class="site-header">
+  <div class="container inner">
+    <a href="/" class="logo" aria-label="AI Creator Stack home">
+      {site.logoPre}<span class="accent">{site.logoAccent}</span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" data-nav-toggle>☰</button>
+    <nav class="main-nav" data-nav>
+      {nav.map((item) => <a href={item.link}>{item.label}</a>)}
+    </nav>
+  </div>
+</header>
+
+<script>
+  const toggle = document.querySelector("[data-nav-toggle]");
+  const nav = document.querySelector("[data-nav]");
+  toggle?.addEventListener("click", () => {
+    const open = nav?.classList.toggle("open");
+    toggle.setAttribute("aria-expanded", String(!!open));
+  });
+</script>

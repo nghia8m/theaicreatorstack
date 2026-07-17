@@ -1,0 +1,89 @@
+---
+import "../styles/global.css";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import site from "../data/site.json";
+
+const {
+  title,
+  description = "",
+  ogImage = "",
+  canonicalPath,
+  jsonLd = [],
+} = Astro.props;
+
+const SITE_NAME = "AI Creator Stack";
+const baseUrl = Astro.site ?? new URL("https://theaicreatorstack.com");
+const canonical = new URL(canonicalPath ?? Astro.url.pathname, baseUrl).href;
+const ogImageUrl = ogImage ? new URL(ogImage, baseUrl).href : new URL("/images/og-default.png", baseUrl).href;
+
+// JSON-LD present on every page
+const orgLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: SITE_NAME,
+  url: baseUrl.href,
+  logo: new URL("/images/logo.png", baseUrl).href,
+  sameAs: [],
+};
+const websiteLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: SITE_NAME,
+  url: baseUrl.href,
+};
+
+const allJsonLd = [orgLd, websiteLd, ...(Array.isArray(jsonLd) ? jsonLd : [jsonLd])].filter(Boolean);
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <title>{title}</title>
+    {description && <meta name="description" content={description} />}
+    <link rel="canonical" href={canonical} />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={SITE_NAME} />
+    <meta property="og:title" content={title} />
+    {description && <meta property="og:description" content={description} />}
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImageUrl} />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    {description && <meta name="twitter:description" content={description} />}
+    <meta name="twitter:image" content={ogImageUrl} />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    {allJsonLd.map((obj) => (
+      <script type="application/ld+json" set:html={JSON.stringify(obj)} />
+    ))}
+
+    <!-- Custom head code (GA / PartnerStack tracking, set via Admin → Site Settings) -->
+    {site.code?.customHead && <Fragment set:html={site.code.customHead} />}
+  </head>
+  <body>
+    <Header />
+    <main>
+      <slot />
+    </main>
+    <Footer />
+
+    <!-- Custom body code -->
+    {site.code?.customBody && <Fragment set:html={site.code.customBody} />}
+  </body>
+</html>

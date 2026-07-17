@@ -1,0 +1,13 @@
+name = "theaicreatorstack-oauth"
+main = "src/index.js"
+compatibility_date = "2024-11-01"
+workers_dev = true
+
+# Secrets (set these with `wrangler secret put`, do NOT commit them):
+#   wrangler secret put GITHUB_CLIENT_ID
+#   wrangler secret put GITHUB_CLIENT_SECRET
+#
+# Optional vars:
+[vars]
+# Comma-separated list of allowed origins that may receive the token via postMessage.
+ALLOWED_ORIGINS = "https://theaicreatorstack.com,http://localhost:4321,http://localhost:3000"

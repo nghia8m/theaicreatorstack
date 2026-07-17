@@ -1,0 +1,296 @@
+---
+import { getCollection, render } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+export async function getStaticPaths() {
+  const articles = await getCollection("articles", ({ data }) => !data.draft);
+  return articles.map((article) => ({
+    params: { slug: article.id },
+    props: { article },
+  }));
+}
+
+const { article } = Astro.props;
+const d = article.data;
+const { Content } = await render(article);
+
+const baseUrl = Astro.site ?? new URL("https://theaicreatorstack.com");
+const pageUrl = new URL(`/${article.id}`, baseUrl).href;
+
+// ---- helpers ----
+function slugify(s) {
+  return s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+}
+function parsePrice(str) {
+  if (!str) return null;
+  if (/free/i.test(str) && !/[0-9]/.test(str)) return "0";
+  const m = str.replace(",", "").match(/([0-9]+(\.[0-9]+)?)/);
+  return m ? m[1] : null;
+}
+function stars(v) {
+  if (!v && v !== 0) return "";
+  const full = Math.round(v);
+  return "★".repeat(full) + "☆".repeat(Math.max(0, 5 - full));
+}
+function startingPrice(p) {
+  for (const t of p.pricingTiers ?? []) {
+    if (/free/i.test(t.price)) return "Free";
+  }
+  for (const t of p.pricingTiers ?? []) {
+    const n = parsePrice(t.price);
+    if (n && n !== "0") return "$" + n + "/mo";
+  }
+  return (p.pricingTiers?.[0]?.price) ?? "—";
+}
+
+const platformLabels = { web: "Web", desktop: "Desktop", mobile: "Mobile", extension: "Extension" };
+
+// ---- JSON-LD ----
+const breadcrumbLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: baseUrl.href },
+    { "@type": "ListItem", position: 2, name: d.category, item: new URL(d.categoryLink, baseUrl).href },
+    { "@type": "ListItem", position: 3, name: d.title, item: pageUrl },
+  ],
+};
+
+function softwareApp(p) {
+  const offers = (p.pricingTiers ?? [])
+    .map((t) => {
+      const price = parsePrice(t.price);
+      if (price === null) return null;
+      return { "@type": "Offer", name: t.tierName, price, priceCurrency: "USD" };
+    })
+    .filter(Boolean);
+  const obj = {
+    "@type": "SoftwareApplication",
+    name: p.name,
+    applicationCategory: "MultimediaApplication",
+    operatingSystem: (p.platform ?? []).map((x) => platformLabels[x] ?? x).join(", ") || "Web",
+    description: p.description,
+  };
+  if (p.image) obj.image = new URL(p.image, baseUrl).href;
+  if (offers.length) obj.offers = offers;
+  if (p.ratingValue && p.ratingCount) {
+    obj.aggregateRating = {
+      "@type": "AggregateRating",
+      ratingValue: p.ratingValue,
+      ratingCount: p.ratingCount,
+      bestRating: 5,
+    };
+  }
+  if (p.reviewBody) {
+    obj.review = {
+      "@type": "Review",
+      reviewBody: p.reviewBody,
+      author: { "@type": "Organization", name: "AI Creator Stack" },
+      ...(p.ratingValue ? { reviewRating: { "@type": "Rating", ratingValue: p.ratingValue, bestRating: 5 } } : {}),
+    };
+  }
+  return obj;
+}
+
+const itemListLd = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  name: d.title,
+  itemListElement: (d.products ?? []).map((p, i) => ({
+    "@type": "ListItem",
+    position: i + 1,
+    item: softwareApp(p),
+  })),
+};
+
+const jsonLd = [breadcrumbLd, itemListLd];
+if ((d.faqs ?? []).length) {
+  jsonLd.push({
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: d.faqs.map((f) => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
+  });
+}
+---
+
+<BaseLayout
+  title={d.metaTitle}
+  description={d.metaDescription}
+  ogImage={d.ogImage ?? d.cardImage ?? ""}
+  canonicalPath={`/${article.id}`}
+  jsonLd={jsonLd}
+>
+  <article class="article">
+    <div class="container">
+      <header class="article-header">
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
+          <a href="/">Home</a> › <a href={d.categoryLink}>{d.category}</a> › <span>{d.cardTitle ?? d.title}</span>
+        </nav>
+        <h1>{d.title}</h1>
+        <div class="article-meta">
+          <span>{d.publishedLabel}</span>
+          <span>· {d.readTime}</span>
+          <span>· Prices last verified {d.lastVerified}</span>
+        </div>
+      </header>
+
+      <div class="article-body">
+        <p style="font-size:1.12rem;">{d.intro}</p>
+
+        <div class="quick-pick">
+          <span class="label">★ Editor's quick pick</span>
+          <h3>{d.quickPick.name}</h3>
+          <p>{d.quickPick.reason}</p>
+        </div>
+
+        <!-- Comparison table -->
+        <div class="compare-wrap">
+          <table class="compare-table">
+            <thead>
+              <tr>
+                <th>Tool</th>
+                <th>Best for</th>
+                <th>Starting price</th>
+                <th>Free option</th>
+                <th>Our rating</th>
+              </tr>
+            </thead>
+            <tbody>
+              {d.products.map((p) => (
+                <tr>
+                  <td><a href={`#${slugify(p.name)}`}><strong>{p.name}</strong></a></td>
+                  <td>{p.bestFor}</td>
+                  <td>{startingPrice(p)}</td>
+                  <td>{p.freeTrialAvailable ? "Yes" : "—"}</td>
+                  <td>{p.ratingValue ? `${p.ratingValue.toFixed(1)} / 5` : "—"}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+
+        <p class="price-note">{d.priceNote}</p>
+
+        <!-- TOC -->
+        <nav class="toc" aria-label="In this guide">
+          <h4>In this guide</h4>
+          <ol>
+            {d.products.map((p) => (
+              <li><a href={`#${slugify(p.name)}`}>{p.name}{p.award ? ` — ${p.award}` : ""}</a></li>
+            ))}
+          </ol>
+        </nav>
+
+        <!-- Products -->
+        {d.products.map((p) => (
+          <section class="product" id={slugify(p.name)}>
+            <div class="product-head">
+              <div>
+                {p.award && <span class="award-badge">{p.award}</span>}
+                <h2>{p.name}</h2>
+                {p.ratingValue && (
+                  <div class="rating-stars" aria-label={`Rated ${p.ratingValue} out of 5`}>
+                    {stars(p.ratingValue)} <span style="color:var(--color-text-mute);font-size:0.85rem;">{p.ratingValue.toFixed(1)}/5{p.ratingCount ? ` (${p.ratingCount} reviews)` : ""}</span>
+                  </div>
+                )}
+              </div>
+              {p.affiliateUrl && (
+                <a href={p.affiliateUrl} class="btn btn-accent" rel="sponsored nofollow noopener" target="_blank">Visit {p.name}</a>
+              )}
+            </div>
+
+            {p.image && (
+              <figure class="product-figure">
+                <img src={p.image} alt={p.imageCaption ?? `${p.name} interface`} loading="lazy" />
+                {p.imageCaption && <figcaption>{p.imageCaption}</figcaption>}
+              </figure>
+            )}
+
+            <div class="badges">
+              {(p.platform ?? []).map((pl) => <span class="badge">{platformLabels[pl] ?? pl}</span>)}
+              {p.freeTrialAvailable && <span class="badge free">Free trial / tier</span>}
+              {p.bestFor && <span class="badge">Best for: {p.bestFor}</span>}
+            </div>
+
+            <p>{p.description}</p>
+
+            {(p.pricingTiers ?? []).length > 0 && (
+              <table class="pricing-table">
+                <thead>
+                  <tr><th>Plan</th><th>Price</th><th>Includes</th></tr>
+                </thead>
+                <tbody>
+                  {p.pricingTiers.map((t) => (
+                    <tr>
+                      <td><strong>{t.tierName}</strong></td>
+                      <td class="price">{t.price}</td>
+                      <td>{(t.features ?? []).join(", ")}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            )}
+
+            {(p.keyFeatures ?? []).length > 0 && (
+              <>
+                <h4>Key features</h4>
+                <ul class="feature-list">
+                  {p.keyFeatures.map((f) => <li>{f}</li>)}
+                </ul>
+              </>
+            )}
+
+            {((p.pros ?? []).length > 0 || (p.cons ?? []).length > 0) && (
+              <div class="proscons">
+                <div class="pros">
+                  <h4>Pros</h4>
+                  <ul>{(p.pros ?? []).map((x) => <li>{x}</li>)}</ul>
+                </div>
+                <div class="cons">
+                  <h4>Cons</h4>
+                  <ul>{(p.cons ?? []).map((x) => <li>{x}</li>)}</ul>
+                </div>
+              </div>
+            )}
+
+            {p.reviewBody && <p>{p.reviewBody}</p>}
+
+            {p.affiliateUrl && (
+              <div class="product-cta">
+                <a href={p.affiliateUrl} class="btn btn-primary" rel="sponsored nofollow noopener" target="_blank">Try {p.name} →</a>
+              </div>
+            )}
+          </section>
+        ))}
+
+        <!-- Markdown body (optional extra prose) -->
+        <div class="prose-inline">
+          <Content />
+        </div>
+
+        <!-- FAQ -->
+        {(d.faqs ?? []).length > 0 && (
+          <section class="faq">
+            <h2>Frequently asked questions</h2>
+            {d.faqs.map((f) => (
+              <details>
+                <summary>{f.q}</summary>
+                <div class="answer">{f.a}</div>
+              </details>
+            ))}
+          </section>
+        )}
+
+        <!-- Conclusion -->
+        <section>
+          <h2>The bottom line</h2>
+          <p>{d.conclusion}</p>
+        </section>
+      </div>
+    </div>
+  </article>
+</BaseLayout>

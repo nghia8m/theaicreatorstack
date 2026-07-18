@@ -1,14 +1,32 @@
 {
-  "logoPre": "AI Creator ",
+  "logoPre": "AI Creator",
   "logoAccent": "Stack",
   "header": {
     "nav": [
-      { "label": "AI Writing", "link": "/ai-writing" },
-      { "label": "AI Video", "link": "/ai-video" },
-      { "label": "AI Voice", "link": "/ai-voice" },
-      { "label": "AI Design", "link": "/ai-design" },
-      { "label": "AI SEO", "link": "/ai-seo" },
-      { "label": "About", "link": "/about" }
+      {
+        "label": "AI Writing",
+        "link": "/ai-writing"
+      },
+      {
+        "label": "AI Video",
+        "link": "/ai-video"
+      },
+      {
+        "label": "AI Voice",
+        "link": "/ai-voice"
+      },
+      {
+        "label": "AI Design",
+        "link": "/ai-design"
+      },
+      {
+        "label": "AI SEO",
+        "link": "/ai-seo"
+      },
+      {
+        "label": "About",
+        "link": "/about"
+      }
     ]
   },
   "footer": {
@@ -17,20 +35,47 @@
       {
         "title": "Categories",
         "links": [
-          { "label": "AI Writing Tools", "link": "/ai-writing" },
-          { "label": "AI Video Tools", "link": "/ai-video" },
-          { "label": "AI Voice Tools", "link": "/ai-voice" },
-          { "label": "AI Design Tools", "link": "/ai-design" },
-          { "label": "AI SEO Tools", "link": "/ai-seo" }
+          {
+            "label": "AI Writing Tools",
+            "link": "/ai-writing"
+          },
+          {
+            "label": "AI Video Tools",
+            "link": "/ai-video"
+          },
+          {
+            "label": "AI Voice Tools",
+            "link": "/ai-voice"
+          },
+          {
+            "label": "AI Design Tools",
+            "link": "/ai-design"
+          },
+          {
+            "label": "AI SEO Tools",
+            "link": "/ai-seo"
+          }
         ]
       },
       {
         "title": "Company",
         "links": [
-          { "label": "About", "link": "/about" },
-          { "label": "Contact", "link": "/contact" },
-          { "label": "Privacy Policy", "link": "/privacy-policy" },
-          { "label": "Affiliate Disclosure", "link": "/affiliate-disclosure" }
+          {
+            "label": "About",
+            "link": "/about"
+          },
+          {
+            "label": "Contact",
+            "link": "/contact"
+          },
+          {
+            "label": "Privacy Policy",
+            "link": "/privacy-policy"
+          },
+          {
+            "label": "Affiliate Disclosure",
+            "link": "/affiliate-disclosure"
+          }
         ]
       }
     ],
@@ -39,9 +84,18 @@
   },
   "hero": {
     "slides": [
-      { "image": "/images/hero/creator-workspace.jpg", "alt": "AI tools for content creators" },
-      { "image": "/images/hero/ai-network.jpg", "alt": "AI-powered creator workflow" },
-      { "image": "/images/hero/content-flow.jpg", "alt": "From script to publish with AI" }
+      {
+        "image": "/images/hero/creator-workspace.jpg",
+        "alt": "AI tools for content creators"
+      },
+      {
+        "image": "/images/hero/ai-network.jpg",
+        "alt": "AI-powered creator workflow"
+      },
+      {
+        "image": "/images/hero/content-flow.jpg",
+        "alt": "From script to publish with AI"
+      }
     ]
   },
   "deals": {
@@ -53,7 +107,7 @@
     "link": "/best-ai-video-editing-tools-for-creators"
   },
   "code": {
-    "customHead": "<!-- Affiliate & analytics tags load here in <head> on every page. Paste each snippet below (Awin MasterTag, Impact UTT, GoAffPro, GA4, or <meta ...-site-verification> tags). Delete this comment line whenever you like. -->",
+    "customHead": "<!-- Affiliate & analytics tags load here in <head> on every page. Paste each snippet below (Awin MasterTag, Impact UTT, GoAffPro, GA4, or <meta ...-site-verification> tags). Delete this comment line whenever you like. -->\n--\n<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-EQVSSBQE2E\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-EQVSSBQE2E');\n</script>",
     "customBody": ""
   }
 }

@@ -107,7 +107,7 @@
     "link": "/best-ai-video-editing-tools-for-creators"
   },
   "code": {
-    "customHead": "<!-- Affiliate & analytics tags load here in <head> on every page. Paste each snippet below (Awin MasterTag, Impact UTT, GoAffPro, GA4, or <meta ...-site-verification> tags). Delete this comment line whenever you like. -->\n--\n<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-EQVSSBQE2E\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-EQVSSBQE2E');\n</script>",
+    "customHead": "<!-- Affiliate & analytics tags load here in <head> on every page. Paste each snippet below (Awin MasterTag, Impact UTT, GoAffPro, GA4, or <meta ...-site-verification> tags). Delete this comment line whenever you like. -->\n<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-EQVSSBQE2E\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-EQVSSBQE2E');\n</script>",
     "customBody": ""
   }
 }

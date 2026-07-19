@@ -1,9 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 
-// Web3Forms access key — replace with your own key from https://web3forms.com (free).
-// You can also set it later via Admin → Site Settings if you wire it into site.json.
-const WEB3FORMS_ACCESS_KEY = "YOUR_WEB3FORMS_ACCESS_KEY";
+const WEB3FORMS_ACCESS_KEY = "c16e630d-4ebc-49d4-9624-2311f822f7b9";
 ---
 <BaseLayout
   title="Contact — AI Creator Stack"
@@ -21,6 +19,7 @@ const WEB3FORMS_ACCESS_KEY = "YOUR_WEB3FORMS_ACCESS_KEY";
     <form class="form" action="https://api.web3forms.com/submit" method="POST">
       <input type="hidden" name="access_key" value={WEB3FORMS_ACCESS_KEY} />
       <input type="hidden" name="subject" value="New message from AI Creator Stack" />
+      <input type="hidden" name="redirect" value="https://theaicreatorstack.com/thank-you" />
       <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off" />
 
       <div>

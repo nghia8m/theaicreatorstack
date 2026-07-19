@@ -73,6 +73,10 @@
             "link": "/privacy-policy"
           },
           {
+            "label": "Terms of Service",
+            "link": "/terms-of-service"
+          },
+          {
             "label": "Affiliate Disclosure",
             "link": "/affiliate-disclosure"
           }

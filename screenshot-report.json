@@ -1,359 +1,72 @@
 [
   {
-    "name": "Jasper",
-    "slug": "jasper",
-    "url": "https://www.jasper.ai",
+    "name": "Grammarly",
+    "slug": "grammarly",
+    "url": "https://www.grammarly.com",
     "ok": true,
-    "file": "/images/tools/jasper.jpg"
+    "file": "/images/tools/grammarly.jpg"
   },
   {
-    "name": "Copy.ai",
-    "slug": "copy-ai",
-    "url": "https://www.copy.ai",
+    "name": "QuillBot",
+    "slug": "quillbot",
+    "url": "https://quillbot.com",
     "ok": true,
-    "file": "/images/tools/copy-ai.jpg"
+    "file": "/images/tools/quillbot.jpg"
   },
   {
-    "name": "Writesonic",
-    "slug": "writesonic",
-    "url": "https://writesonic.com",
+    "name": "Wordtune",
+    "slug": "wordtune",
+    "url": "https://www.wordtune.com",
     "ok": true,
-    "file": "/images/tools/writesonic.jpg"
+    "file": "/images/tools/wordtune.jpg"
   },
   {
-    "name": "Rytr",
-    "slug": "rytr",
-    "url": "https://rytr.me",
+    "name": "CapCut",
+    "slug": "capcut",
+    "url": "https://www.capcut.com",
     "ok": true,
-    "file": "/images/tools/rytr.jpg"
+    "file": "/images/tools/capcut.jpg"
   },
   {
-    "name": "Anyword",
-    "slug": "anyword",
-    "url": "https://anyword.com",
+    "name": "Otter.ai",
+    "slug": "otter-ai",
+    "url": "https://otter.ai",
     "ok": true,
-    "file": "/images/tools/anyword.jpg"
+    "file": "/images/tools/otter-ai.jpg"
   },
   {
-    "name": "ChatGPT",
-    "slug": "chatgpt",
-    "url": "https://chatgpt.com",
+    "name": "Sonix",
+    "slug": "sonix",
+    "url": "https://sonix.ai",
     "ok": true,
-    "file": "/images/tools/chatgpt.jpg"
+    "file": "/images/tools/sonix.jpg"
   },
   {
-    "name": "Notion AI",
-    "slug": "notion-ai",
-    "url": "https://www.notion.com/product/ai",
+    "name": "Riverside.fm",
+    "slug": "riverside-fm",
+    "url": "https://riverside.com",
     "ok": true,
-    "file": "/images/tools/notion-ai.jpg"
+    "file": "/images/tools/riverside-fm.jpg"
   },
   {
-    "name": "beehiiv",
-    "slug": "beehiiv",
-    "url": "https://www.beehiiv.com",
+    "name": "Gamma",
+    "slug": "gamma",
+    "url": "https://gamma.app",
     "ok": true,
-    "file": "/images/tools/beehiiv.jpg"
+    "file": "/images/tools/gamma.jpg"
   },
   {
-    "name": "Descript",
-    "slug": "descript",
-    "url": "https://www.descript.com",
+    "name": "Beautiful.ai",
+    "slug": "beautiful-ai",
+    "url": "https://www.beautiful.ai",
     "ok": true,
-    "file": "/images/tools/descript.jpg"
+    "file": "/images/tools/beautiful-ai.jpg"
   },
   {
-    "name": "VEED",
-    "slug": "veed",
-    "url": "https://www.veed.io",
+    "name": "AnswerThePublic",
+    "slug": "answerthepublic",
+    "url": "https://answerthepublic.com",
     "ok": true,
-    "file": "/images/tools/veed.jpg"
-  },
-  {
-    "name": "Filmora",
-    "slug": "filmora",
-    "url": "https://filmora.wondershare.com",
-    "ok": true,
-    "file": "/images/tools/filmora.jpg"
-  },
-  {
-    "name": "Runway",
-    "slug": "runway",
-    "url": "https://runwayml.com",
-    "ok": true,
-    "file": "/images/tools/runway.jpg"
-  },
-  {
-    "name": "OpusClip",
-    "slug": "opusclip",
-    "url": "https://www.opus.pro",
-    "ok": true,
-    "file": "/images/tools/opusclip.jpg"
-  },
-  {
-    "name": "Synthesia",
-    "slug": "synthesia",
-    "url": "https://www.synthesia.io",
-    "ok": true,
-    "file": "/images/tools/synthesia.jpg"
-  },
-  {
-    "name": "HeyGen",
-    "slug": "heygen",
-    "url": "https://www.heygen.com",
-    "ok": true,
-    "file": "/images/tools/heygen.jpg"
-  },
-  {
-    "name": "InVideo AI",
-    "slug": "invideo-ai",
-    "url": "https://invideo.io",
-    "ok": true,
-    "file": "/images/tools/invideo-ai.jpg"
-  },
-  {
-    "name": "Pictory",
-    "slug": "pictory",
-    "url": "https://pictory.ai",
-    "ok": true,
-    "file": "/images/tools/pictory.jpg"
-  },
-  {
-    "name": "Submagic",
-    "slug": "submagic",
-    "url": "https://www.submagic.co",
-    "ok": true,
-    "file": "/images/tools/submagic.jpg"
-  },
-  {
-    "name": "Captions",
-    "slug": "captions",
-    "url": "https://www.captions.ai",
-    "ok": true,
-    "file": "/images/tools/captions.jpg"
-  },
-  {
-    "name": "ElevenLabs",
-    "slug": "elevenlabs",
-    "url": "https://elevenlabs.io",
-    "ok": true,
-    "file": "/images/tools/elevenlabs.jpg"
-  },
-  {
-    "name": "Murf AI",
-    "slug": "murf-ai",
-    "url": "https://murf.ai",
-    "ok": true,
-    "file": "/images/tools/murf-ai.jpg"
-  },
-  {
-    "name": "Play.ht",
-    "slug": "play-ht",
-    "url": "https://play.ht",
-    "ok": false,
-    "error": "Error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://play.ht/"
-  },
-  {
-    "name": "LOVO (Genny)",
-    "slug": "lovo-genny",
-    "url": "https://lovo.ai",
-    "ok": true,
-    "file": "/images/tools/lovo-genny.jpg"
-  },
-  {
-    "name": "Speechify",
-    "slug": "speechify",
-    "url": "https://speechify.com",
-    "ok": true,
-    "file": "/images/tools/speechify.jpg"
-  },
-  {
-    "name": "Podcastle",
-    "slug": "podcastle",
-    "url": "https://podcastle.ai",
-    "ok": true,
-    "file": "/images/tools/podcastle.jpg"
-  },
-  {
-    "name": "Adobe Podcast",
-    "slug": "adobe-podcast",
-    "url": "https://podcast.adobe.com",
-    "ok": true,
-    "file": "/images/tools/adobe-podcast.jpg"
-  },
-  {
-    "name": "Castmagic",
-    "slug": "castmagic",
-    "url": "https://www.castmagic.io",
-    "ok": true,
-    "file": "/images/tools/castmagic.jpg"
-  },
-  {
-    "name": "Suno",
-    "slug": "suno",
-    "url": "https://suno.com",
-    "ok": true,
-    "file": "/images/tools/suno.jpg"
-  },
-  {
-    "name": "Udio",
-    "slug": "udio",
-    "url": "https://www.udio.com",
-    "ok": true,
-    "file": "/images/tools/udio.jpg"
-  },
-  {
-    "name": "Soundraw",
-    "slug": "soundraw",
-    "url": "https://soundraw.io",
-    "ok": true,
-    "file": "/images/tools/soundraw.jpg"
-  },
-  {
-    "name": "Mubert",
-    "slug": "mubert",
-    "url": "https://mubert.com",
-    "ok": true,
-    "file": "/images/tools/mubert.jpg"
-  },
-  {
-    "name": "Canva",
-    "slug": "canva",
-    "url": "https://www.canva.com",
-    "ok": true,
-    "file": "/images/tools/canva.jpg"
-  },
-  {
-    "name": "Adobe Express",
-    "slug": "adobe-express",
-    "url": "https://www.adobe.com/express/",
-    "ok": false,
-    "error": "Error: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.adobe.com/express/"
-  },
-  {
-    "name": "Adobe Firefly",
-    "slug": "adobe-firefly",
-    "url": "https://www.adobe.com/products/firefly.html",
-    "ok": false,
-    "error": "Error: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.adobe.com/products/firefly.html"
-  },
-  {
-    "name": "Midjourney",
-    "slug": "midjourney",
-    "url": "https://www.midjourney.com",
-    "ok": true,
-    "file": "/images/tools/midjourney.jpg"
-  },
-  {
-    "name": "Leonardo.ai",
-    "slug": "leonardo-ai",
-    "url": "https://leonardo.ai",
-    "ok": true,
-    "file": "/images/tools/leonardo-ai.jpg"
-  },
-  {
-    "name": "Ideogram",
-    "slug": "ideogram",
-    "url": "https://ideogram.ai",
-    "ok": true,
-    "file": "/images/tools/ideogram.jpg"
-  },
-  {
-    "name": "Recraft",
-    "slug": "recraft",
-    "url": "https://www.recraft.ai",
-    "ok": true,
-    "file": "/images/tools/recraft.jpg"
-  },
-  {
-    "name": "Looka",
-    "slug": "looka",
-    "url": "https://looka.com",
-    "ok": true,
-    "file": "/images/tools/looka.jpg"
-  },
-  {
-    "name": "Brandmark",
-    "slug": "brandmark",
-    "url": "https://brandmark.io",
-    "ok": true,
-    "file": "/images/tools/brandmark.jpg"
-  },
-  {
-    "name": "Photoroom",
-    "slug": "photoroom",
-    "url": "https://www.photoroom.com",
-    "ok": true,
-    "file": "/images/tools/photoroom.jpg"
-  },
-  {
-    "name": "Cleanup.pictures",
-    "slug": "cleanup-pictures",
-    "url": "https://cleanup.pictures",
-    "ok": true,
-    "file": "/images/tools/cleanup-pictures.jpg"
-  },
-  {
-    "name": "Surfer SEO",
-    "slug": "surfer-seo",
-    "url": "https://surferseo.com",
-    "ok": true,
-    "file": "/images/tools/surfer-seo.jpg"
-  },
-  {
-    "name": "Frase",
-    "slug": "frase",
-    "url": "https://www.frase.io",
-    "ok": true,
-    "file": "/images/tools/frase.jpg"
-  },
-  {
-    "name": "Semrush",
-    "slug": "semrush",
-    "url": "https://www.semrush.com",
-    "ok": true,
-    "file": "/images/tools/semrush.jpg"
-  },
-  {
-    "name": "Ahrefs",
-    "slug": "ahrefs",
-    "url": "https://ahrefs.com",
-    "ok": true,
-    "file": "/images/tools/ahrefs.jpg"
-  },
-  {
-    "name": "VidIQ",
-    "slug": "vidiq",
-    "url": "https://vidiq.com",
-    "ok": true,
-    "file": "/images/tools/vidiq.jpg"
-  },
-  {
-    "name": "TubeBuddy",
-    "slug": "tubebuddy",
-    "url": "https://www.tubebuddy.com",
-    "ok": true,
-    "file": "/images/tools/tubebuddy.jpg"
-  },
-  {
-    "name": "Keywords Everywhere",
-    "slug": "keywords-everywhere",
-    "url": "https://keywordseverywhere.com",
-    "ok": true,
-    "file": "/images/tools/keywords-everywhere.jpg"
-  },
-  {
-    "name": "Repurpose.io",
-    "slug": "repurpose-io",
-    "url": "https://repurpose.io",
-    "ok": true,
-    "file": "/images/tools/repurpose-io.jpg"
-  },
-  {
-    "name": "Social Blade",
-    "slug": "social-blade",
-    "url": "https://socialblade.com",
-    "ok": true,
-    "file": "/images/tools/social-blade.jpg"
+    "file": "/images/tools/answerthepublic.jpg"
   }
 ]

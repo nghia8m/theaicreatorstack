@@ -5,7 +5,7 @@ metaDescription: "Create high-CTR YouTube thumbnails in minutes with AI. Compare
 category: "AI Design & Thumbnail Tools"
 categoryLink: "/ai-design"
 ogImage: "/images/cards/best-ai-tools-youtube-thumbnails-fast.jpg"
-cardImage: "/images/tools/canva.jpg"
+cardImage: "/images/tools/ideogram.jpg"
 cardTitle: "Make Thumbnails Fast with AI"
 cardSummary: "Speed up your thumbnail workflow — the AI tools that turn a blank canvas into a clickable thumbnail in minutes."
 publishedLabel: "Updated July 2026"

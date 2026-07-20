@@ -5,7 +5,7 @@ metaDescription: "A head-to-head of Jasper and Copy.ai for content creators in 2
 category: "AI Writing Tools"
 categoryLink: "/ai-writing"
 ogImage: "/images/cards/jasper-vs-copy-ai.jpg"
-cardImage: "/images/tools/jasper.jpg"
+cardImage: "/images/tools/copy-ai.jpg"
 cardTitle: "Jasper vs Copy.ai"
 cardSummary: "Two of the biggest names in AI writing, compared head-to-head on price, output and who each one is really built for."
 publishedLabel: "Updated July 2026"

@@ -74,6 +74,17 @@ export const TOOLS = {
   "Keywords Everywhere": "https://keywordseverywhere.com",
   "Repurpose.io": "https://repurpose.io",
   "Social Blade": "https://socialblade.com",
+  // --- Added batch 2 (60-article expansion) ---
+  "Grammarly": "https://www.grammarly.com",
+  "QuillBot": "https://quillbot.com",
+  "Wordtune": "https://www.wordtune.com",
+  "CapCut": "https://www.capcut.com",
+  "Otter.ai": "https://otter.ai",
+  "Sonix": "https://sonix.ai",
+  "Riverside.fm": "https://riverside.com",
+  "Gamma": "https://gamma.app",
+  "Beautiful.ai": "https://www.beautiful.ai",
+  "AnswerThePublic": "https://answerthepublic.com",
 };
 
 export const slugifyTool = (name) =>
@@ -171,9 +182,14 @@ async function shoot(browser, name, url) {
 
 async function main() {
   const testMode = process.argv.includes("--test");
+  const onlyArg = process.argv.find((a) => a.startsWith("--only="));
   await mkdir(OUT, { recursive: true });
 
   let entries = Object.entries(TOOLS);
+  if (onlyArg) {
+    const names = new Set(onlyArg.slice("--only=".length).split(",").map((s) => s.trim()));
+    entries = entries.filter(([n]) => names.has(n));
+  }
   if (testMode) entries = entries.slice(0, 5);
 
   console.log(`Shooting ${entries.length} tool homepage(s)...\n`);

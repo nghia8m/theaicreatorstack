@@ -5,7 +5,7 @@ metaDescription: "Clone your own voice for narration with AI. Compare ElevenLabs
 category: "AI Voice & Audio Tools"
 categoryLink: "/ai-voice"
 ogImage: "/images/cards/best-ai-voice-cloning-tools.jpg"
-cardImage: "/images/tools/fliki.jpg"
+cardImage: "/images/tools/elevenlabs.jpg"
 cardTitle: "Best AI Voice Cloning Tools"
 cardSummary: "Narrate in your own voice without recording. The most realistic — and responsible — AI voice cloning tools."
 publishedLabel: "Updated July 2026"
